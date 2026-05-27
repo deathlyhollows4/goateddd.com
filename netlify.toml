@@ -1,0 +1,37 @@
+# ==========================================================================
+# GOATEDDD Netlify Production & Security Configuration
+# ==========================================================================
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Prevent page from being embedded in frames/iframes on other sites to mitigate clickjacking
+    X-Frame-Options = "DENY"
+    
+    # Force the browser to respect the declared Content-Type header and block MIME-type sniffing
+    X-Content-Type-Options = "nosniff"
+    
+    # Enable browser Cross-Site Scripting (XSS) filter
+    X-XSS-Protection = "1; mode=block"
+    
+    # Require HTTPS with a 2-year duration and include all subdomains
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    
+    # Control how much referrer information is sent with requests
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    
+    # Restrict APIs and features access to secure contexts only
+    Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+    
+    # Content Security Policy (Strict baseline to prevent injections/XSS while allowing necessary interactive systems)
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://player.vimeo.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://goateddd.com; media-src 'self' https://player.vimeo.com; connect-src 'self'; frame-src 'self' https://player.vimeo.com; object-src 'none'; base-uri 'self'; form-action 'self';"
+
+# Custom Cache-Control Directives for Static Assets (Vite outputs hashed assets)
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

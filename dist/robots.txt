@@ -1,0 +1,23 @@
+# ==========================================================================
+# GOATEDDD.COM - ROBOTS.TXT STRICT DIRECTIVES
+# ==========================================================================
+
+# Global rules for all search crawlers
+User-agent: *
+Allow: /
+
+# Block indexing of build tools, source code, and package structures
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /src/
+Disallow: /scripts/
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /vite.config.js
+
+# Prevent indexing of temporary or scratch files
+Disallow: *.log
+Disallow: *.tmp
+
+# Path to the dynamic XML sitemap
+Sitemap: https://goateddd.com/sitemap.xml
