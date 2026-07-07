@@ -1,0 +1,119 @@
+{
+  "id": "graphic-design",
+  "title": "Brand Systems & Custom Graphics",
+  "tagline": "We design systematic brand assets that build authority. No generic stock templates. Ever.",
+  "voice_note": "A brand is not just a logo. It is a logical visual ruleset. We develop functional type systems, structural grid layouts, and custom vector assets optimized for modern high-resolution screens.",
+  "overview": "Generic stock vectors make your business look amateur. We design custom graphic systems from the ground up. Every brand asset is built as a scalable vector, engineered with clean structural logic, and export-optimized for rapid load speeds on the web.",
+  "outcomes": [
+    {
+      "metric": "100%",
+      "label": "Bespoke Vector and Graphic Assets"
+    },
+    {
+      "metric": "0%",
+      "label": "Stock Photography and Vector Templates Used"
+    },
+    {
+      "metric": "1:1",
+      "label": "Figma design tokens to CSS compatibility"
+    }
+  ],
+  "features": [
+    {
+      "title": "Structural Brand Architecture",
+      "description": "We establish strict rules for typography scales, geometric grid layouts, and cohesive color values. We translate these into standard Figma variables and CSS tokens.",
+      "benefit": "Your visual branding remains perfectly consistent across web, mobile, print, and physical spaces."
+    },
+    {
+      "title": "Bespoke Vector Illustrations",
+      "description": "Our illustrators hand-craft vector assets tailored precisely to your product's concepts. No recycled templates. Clean SVG code only.",
+      "benefit": "Your marketing collateral communicates high-end authority and stands out from standard competitors."
+    },
+    {
+      "title": "High-Fidelity UI/UX Layouts",
+      "description": "We build pixel-perfect user interface prototypes. Every component is mapped out in auto-layout frameworks, illustrating multiple functional states.",
+      "benefit": "Engineers receive blueprints that can be coded rapidly with zero visual interpretation errors."
+    },
+    {
+      "title": "Performance-Optimized Motion Graphics",
+      "description": "We design lightweight Lottie animations, SVG motion patterns, and custom interface transitions that perform at a high level.",
+      "benefit": "Keeps your web interface dynamic and premium without increasing page loading weights."
+    }
+  ],
+  "capabilities": [
+    "Corporate identity & logo design",
+    "Figma component library creation",
+    "Tailored vector illustration libraries",
+    "Lottie & micro-interaction design",
+    "Pitch deck & sales collateral layouts",
+    "High-resolution print specifications",
+    "Design system token documentation"
+  ],
+  "pricing": {
+    "currency": "USD",
+    "plans": [
+      {
+        "tier": "Core Brand System",
+        "starting_price": 6000,
+        "pricing_model": "One-time package",
+        "timeline": "3-4 weeks",
+        "description": "For scaling startups and established B2B brands that need to establish a consistent, premium visual system.",
+        "deliverables": [
+          "Bespoke primary and secondary brand logos",
+          "Comprehensive typography hierarchy and color specifications",
+          "Figma components and design token configuration file",
+          "Set of 10 custom marketing vector graphics (SVG format)",
+          "1 brand guideline manual documenting usage rules"
+        ]
+      },
+      {
+        "tier": "High-Fidelity Interface Prototype",
+        "starting_price": 8000,
+        "pricing_model": "Project-based",
+        "timeline": "4-6 weeks",
+        "description": "For digital platforms and mobile applications requiring in-depth UX mapping and complete UI systems.",
+        "deliverables": [
+          "Interactive Figma prototype with fully animated user journeys",
+          "Exhaustive UI component library with multi-state buttons and inputs",
+          "Grid-layout specifications for mobile, tablet, and desktop viewports",
+          "Fully exported web-ready SVG icon and asset folder",
+          "2 rounds of comprehensive feedback and review revisions"
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What assets do we receive at the end of a brand design project?",
+      "answer": "You receive complete Figma source directories, print-ready vector formats (EPS, PDF), web-optimized SVG assets, high-resolution raster files (PNG, WebP), and a systematic brand guidelines manual. The manual details font scales, hex color codes, and placement constraints."
+    },
+    {
+      "question": "Why do you refuse to use stock graphics or templates?",
+      "answer": "Stock graphics are generic. Thousands of businesses use the same standard assets. It dilutes your brand identity and makes you look indistinguishable from low-tier competitors. Custom graphics communicate attention to detail, reinforcing premium B2B value."
+    },
+    {
+      "question": "What is a 'design system' and why is it useful?",
+      "answer": "A design system is a central library of reusable UI components, typography variables, colors, and layout spacing rules. It ensures that any page built by designers or coded by engineers follows the exact same visual principles, cutting development times in half."
+    },
+    {
+      "question": "Can you design both digital web assets and physical print collateral?",
+      "answer": "Yes. We design for both screens and physical print. We configure correct digital color profiles (sRGB) and physical layouts (CMYK, pantone matches, crop marks, and bleeds) depending on the final production medium."
+    },
+    {
+      "question": "How many design revisions are included in your scope?",
+      "answer": "Our standard projects include two comprehensive rounds of feedback. We present clear wireframes and visual directions early in the project to align on branding concepts, ensuring the final high-fidelity designs meet your business goals."
+    },
+    {
+      "question": "Do you write the copy or build the code for these designs?",
+      "answer": "This specific service is focused on design, typography, and illustration assets. However, our Web Design and Performance Marketing services are configured to directly translate these graphic systems into clean code and high-converting copy."
+    },
+    {
+      "question": "What typography choices do you make?",
+      "answer": "We avoid generic browser defaults. We select highly readable, modern typefaces with comprehensive weight ranges (typically from services like Google Fonts or premium type foundries) that fit your brand's voice and perform fast on screens."
+    },
+    {
+      "question": "How long does a brand design project take to complete?",
+      "answer": "A standard B2B brand design system takes between 3 to 4 weeks. High-fidelity UI/UX interactive prototyping takes between 4 to 6 weeks, depending on the complexity of the digital application's user flows."
+    }
+  ]
+}

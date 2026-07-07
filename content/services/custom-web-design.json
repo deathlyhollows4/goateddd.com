@@ -1,0 +1,119 @@
+{
+  "id": "custom-web-design",
+  "title": "Custom Web Design & Engineering",
+  "tagline": "We build fast websites. They load in milliseconds. They turn visitors into customers.",
+  "voice_note": "No bloated templates. No unnecessary frameworks. Just clean, optimized code designed for maximum conversions.",
+  "overview": "Generic templates dilute your brand value. We build bespoke web platforms. Every line of code is written to load instantly and guide users to take action. We design in Figma. We develop with vanilla CSS, modern Javascript, and high-performance frameworks.",
+  "outcomes": [
+    {
+      "metric": "100/100",
+      "label": "Lighthouse Speed Score"
+    },
+    {
+      "metric": "&lt; 0.4s",
+      "label": "Average Time to Interactive"
+    },
+    {
+      "metric": "+35%",
+      "label": "Typical Increase in User Engagement"
+    }
+  ],
+  "features": [
+    {
+      "title": "Bespoke Interface Design",
+      "description": "We do not use pre-made UI kits. We design layouts tailored specifically to your conversion goals and brand identity.",
+      "benefit": "Your business looks unique, not like another template."
+    },
+    {
+      "title": "WebGL & Interactive Mechanics",
+      "description": "We build lightweight, fluid animations and 3D experiences that run at a stable 60 FPS on mobile and desktop.",
+      "benefit": "Keeps users engaged longer, reducing bounce rates."
+    },
+    {
+      "title": "Headless & Hybrid Architectures",
+      "description": "We integrate custom user interfaces with flexible, secure CMS backends like Shopify, WordPress, or headless options.",
+      "benefit": "Your marketing team edits content easily while the site remains fast and secure."
+    },
+    {
+      "title": "Performance Optimization",
+      "description": "We minimize payloads, implement advanced caching, optimize image pipelines, and prioritize critical CSS delivery.",
+      "benefit": "Users never wait. Search engines reward your speed with higher rankings."
+    }
+  ],
+  "capabilities": [
+    "Figma UI/UX prototyping",
+    "Tailored design systems",
+    "WebGL & canvas-based graphics",
+    "Headless WordPress & Shopify",
+    "Vite, Next.js, and static builds",
+    "Responsive design across all viewports",
+    "Strict accessibility compliance (WCAG)"
+  ],
+  "pricing": {
+    "currency": "USD",
+    "plans": [
+      {
+        "tier": "Custom Marketing Platform",
+        "starting_price": 8500,
+        "pricing_model": "Flat-rate project",
+        "timeline": "4-6 weeks",
+        "description": "For businesses requiring high-end brand positioning and fast conversion paths.",
+        "deliverables": [
+          "Bespoke UI/UX design in Figma",
+          "Up to 10 fully custom pages",
+          "Integrated CMS for easy content editing",
+          "100% Lighthouse performance compliance",
+          "Full mobile and tablet responsive layouts"
+        ]
+      },
+      {
+        "tier": "Interactive WebGL Engine",
+        "starting_price": 16000,
+        "pricing_model": "Project-based",
+        "timeline": "6-10 weeks",
+        "description": "For creative agencies, high-tech products, and brands wanting immersive 3D/interactive stories.",
+        "deliverables": [
+          "Custom WebGL/Three.js interactive experience",
+          "Advanced state management & animations",
+          "Figma prototypes with interactive motion testing",
+          "Optimized assets for rapid mobile loading",
+          "Headless headless CMS integration"
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Why don't you use standard page builders like Elementor, Divi, or Wix?",
+      "answer": "Page builders write bloated, inefficient code. They generate excessive CSS, JavaScript, and nested HTML tags. This degrades load speeds, lowers mobile conversion rates, and hurts technical SEO. We write custom, lightweight code. It ensures your site loads instantly and remains highly secure."
+    },
+    {
+      "question": "What content management systems (CMS) do you support?",
+      "answer": "We develop for WordPress, Shopify, and headless platforms like Sanity or Contentful. We decouple the front-end design from the database. This approach gives you the speed of a static site with the ease of a modern editing interface."
+    },
+    {
+      "question": "Will my site be easy to edit after launch?",
+      "answer": "Yes. We configure clear, custom fields in the backend. You can edit text, swap images, and publish blog posts without knowing how to code. You cannot break the design layout, keeping your brand consistent."
+    },
+    {
+      "question": "How do you make websites load so quickly?",
+      "answer": "We eliminate redundant JavaScript libraries, optimize asset sizes, utilize modern image formats (AVIF/WebP), implement critical CSS extraction, and deploy through content delivery networks (CDNs). Every kilobyte of code must justify its existence."
+    },
+    {
+      "question": "Do you design in Figma before coding?",
+      "answer": "Yes. We design every page in Figma. We share interactive prototypes with you. You approve the exact visual design and user flow before we write the first line of code."
+    },
+    {
+      "question": "Can you migrate our existing site's content and design?",
+      "answer": "We can. We migrate existing blog posts, product pages, and redirect maps. We retain your SEO authority while rebuilding the interface to be faster and higher-converting."
+    },
+    {
+      "question": "How do you test for cross-device compatibility?",
+      "answer": "We test on real physical hardware and cloud simulation environments. We cover iOS, Android, Safari, Chrome, Firefox, and Edge. The site is optimized to behave perfectly on mobile, tablet, and ultra-wide screens."
+    },
+    {
+      "question": "Do you offer post-launch support and edits?",
+      "answer": "Yes. We offer continuous technical maintenance plans. These cover core updates, performance audits, and quick design or copy updates. Detailed pricing is available under our Website Care service."
+    }
+  ]
+}

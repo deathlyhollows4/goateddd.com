@@ -1,0 +1,119 @@
+{
+  "id": "performance-marketing",
+  "title": "Performance Marketing & Funnel Engineering",
+  "tagline": "We buy traffic that buys your product. Direct-response paid ads and high-converting landing pages.",
+  "voice_note": "No aesthetic vanity metrics. No engagement-rate fluff. We construct paid ad campaigns and custom code landing pages designed solely to generate qualified leads and pipeline revenue.",
+  "overview": "Sending premium ad traffic to a generic homepage wastes capital. We engineer high-speed, zero-distraction landing pages and integrate advanced server-side tracking pipelines to maximize the efficiency of every ad dollar you spend on Google, Meta, and LinkedIn.",
+  "outcomes": [
+    {
+      "metric": "+55%",
+      "label": "Average Conversion Rate Increase"
+    },
+    {
+      "metric": "-30%",
+      "label": "Reduction in Cost Per Acquisition (CPA)"
+    },
+    {
+      "metric": "100%",
+      "label": "Tracking Accuracy via Conversions API"
+    }
+  ],
+  "features": [
+    {
+      "title": "Custom Engineered Landing Pages",
+      "description": "We write lightweight landing page templates specifically configured for each ad group. Zero slow trackers. Clear value hierarchies. Fast-loading contact structures.",
+      "benefit": "Fewer visitors bounce before the page loads. More visitors complete the form."
+    },
+    {
+      "title": "Server-Side tracking (Conversions API)",
+      "description": "Standard browser pixels fail due to modern ad blockers and privacy configurations. We set up robust, server-side event tracking pipelines.",
+      "benefit": "Your ad platforms receive perfect attribution data, improving algorithmic targeting and scaling."
+    },
+    {
+      "title": "High-Intent Search & Paid Social Management",
+      "description": "We build and optimize search campaigns targeting high-intent buyers, paired with targeted social campaigns that educate and capture prospects.",
+      "benefit": "Eliminates wasted impressions. Puts your ad directly in front of the active decision-maker."
+    },
+    {
+      "title": "Iterative Conversion Optimization",
+      "description": "We analyze behavioral maps and scroll depths. We run programmatic A/B tests on value statements, CTA structures, and visual hierarchies.",
+      "benefit": "Your funnel continuously gets more efficient, decreasing your cost-per-lead over time."
+    }
+  ],
+  "capabilities": [
+    "High-speed custom landing page builds",
+    "Google Ads search and display management",
+    "LinkedIn & Meta B2B social campaigns",
+    "Server-side Conversions API (CAPI) setup",
+    "Exhaustive A/B multivariate split testing",
+    "Multi-touch marketing attribution models",
+    "Ad creative and copywriting production"
+  ],
+  "pricing": {
+    "currency": "USD",
+    "plans": [
+      {
+        "tier": "Landing Page & Tracking Setup",
+        "starting_price": 5000,
+        "pricing_model": "One-time fee",
+        "timeline": "3 weeks",
+        "description": "For brands with active ad accounts that need to replace low-converting templates and repair broken attribution.",
+        "deliverables": [
+          "3 custom-designed, fast-loading B2B landing pages",
+          "Complete server-side Conversions API integration",
+          "Advanced custom event tracking (form starts, field errors)",
+          "100% compliant GDPR/CCPA cookie consent configurations",
+          "Visual recording and heatmapping software setup"
+        ]
+      },
+      {
+        "tier": "Full Performance Engine",
+        "starting_price": 4000,
+        "pricing_model": "Monthly retainer + % of spend",
+        "timeline": "Ongoing",
+        "description": "For businesses looking to fully delegate B2B lead generation, creative production, and landing page engineering.",
+        "deliverables": [
+          "End-to-end management of search (Google) and social (LinkedIn/Meta)",
+          "Continuous landing page design updates and copywriting tests",
+          "Weekly ad creative asset design and testing pipelines",
+          "Rigorous negative-keyword scrubbing and search query audits",
+          "Transparent weekly pipeline performance dashboard reporting"
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Why can't we just direct traffic to our company homepage?",
+      "answer": "Homepages have too many navigation choices, links, and general explanations. They are built to introduce the entire business, not convert specific ad traffic. Landing pages have one purpose. They remove distractions, match the exact message of the ad clicked, and double conversion efficiency."
+    },
+    {
+      "question": "What is server-side tracking and why is it mandatory now?",
+      "answer": "Browser-based tracking cookies are blocked by modern browsers (Safari, Firefox), ad blockers, and mobile operating system privacy settings. This leads to lost attribution data. Server-side tracking routes event data directly from our secure cloud server to the ad platform's endpoint, bypassing browser-level blocks."
+    },
+    {
+      "question": "Which advertising channels do you work with?",
+      "answer": "We focus on Google Search, LinkedIn Ads, and Meta Ads. Google Search captures users already looking for a solution. LinkedIn targets precise corporate titles and industry demographics. Meta is highly effective for cost-efficient retargeting and creative demand generation."
+    },
+    {
+      "question": "What is your recommended minimum monthly ad spend?",
+      "answer": "We recommend starting with at least $3,000 per month. Lower budgets do not generate enough visitor data quickly enough for statistical significance in ad testing and machine-learning optimization."
+    },
+    {
+      "question": "How do you avoid wasting budget on low-quality search terms?",
+      "answer": "We use exact-match and phrase-match keywords. We construct exhaustive lists of negative terms before launching any campaign. We analyze actual search queries daily. We strip budget from non-converting keywords and reallocate it to high-intent transactional terms."
+    },
+    {
+      "question": "Do you write the copy and build the visual assets for the ads?",
+      "answer": "Yes. Our team writes all high-converting ad copy, designs visual graphics, and edits short-form videos. We build multiple variations of every asset to test different value propositions for your buyer demographics."
+    },
+    {
+      "question": "Who owns the ad accounts and landing page assets?",
+      "answer": "You do. We build everything inside your existing Google, Meta, or LinkedIn business managers. The custom landing page source code is delivered to your repository. If you choose to stop working with us, you retain all data, setups, and assets."
+    },
+    {
+      "question": "How do you measure campaign success and revenue outcomes?",
+      "answer": "We do not report on 'likes' or 'shares'. We track cost-per-lead, pipeline pipeline value, qualified bookings, and direct return-on-ad-spend (ROAS). We connect our tracking to your CRM (e.g., HubSpot, Salesforce) to track actual closed deals."
+    }
+  ]
+}

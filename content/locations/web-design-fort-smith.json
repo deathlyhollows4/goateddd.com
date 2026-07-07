@@ -1,0 +1,84 @@
+{
+  "locationName": "Fort Smith, Arkansas",
+  "slug": "web-design-fort-smith",
+  "title": "Industrial Web Modernization & Full-Stack Engineering Fort Smith | GOATEDDD",
+  "metaDescription": "Transform your Fort Smith industrial, manufacturing, or logistics enterprise. Custom clean-code digital architectures built for extreme performance and B2B growth.",
+  "nap": {
+    "name": "GOATEDDD Fort Smith",
+    "streetAddress": "800 Garrison Ave",
+    "locality": "Fort Smith",
+    "region": "AR",
+    "postalCode": "72901",
+    "country": "US",
+    "phone": "+1-479-202-6902",
+    "email": "fortsmith@goateddd.com",
+    "priceRange": "$$$$"
+  },
+  "coordinates": {
+    "latitude": "35.38592",
+    "longitude": "-94.42445"
+  },
+  "landmarks": [
+    "Historic Fort Smith Museum",
+    "Garrison Avenue Bridge",
+    "United States Marshals Museum",
+    "Fort Smith National Historic Site",
+    "Miss Laura's Visitor Center"
+  ],
+  "serviceAreas": [
+    "Van Buren",
+    "Barling",
+    "Greenwood",
+    "Alma",
+    "Roland",
+    "Pocola",
+    "Kibler",
+    "Hackett"
+  ],
+  "testimonials": [
+    {
+      "clientName": "Wayne Vance",
+      "company": "Ozark Foundry & Steel",
+      "role": "President & COO",
+      "text": "For years, our legacy B2B website was an embarrassment that failed to generate qualified leads in our industrial sector. GOATEDDD completely modernized our digital footprint. They replaced our slow, broken legacy setup with a blazing-fast custom portal. It has streamlined our heavy-equipment orders and established us as the modern manufacturing authority in the Arkansas River Valley.",
+      "rating": 5
+    },
+    {
+      "clientName": "Samantha Cole",
+      "company": "Mid-South Logistics Corp",
+      "role": "Director of Operations",
+      "text": "We needed a robust digital platform that could handle thousands of freight queries without lag. GOATEDDD built a high-performance database-driven application that operates flawlessly. Their 80+ PageSpeed guarantee under the MSME Master Service Agreement gave us complete confidence.",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why should a traditional Fort Smith industrial business invest in custom web design?",
+      "answer": "Traditional businesses are losing market share to tech-enabled competitors. A slow, outdated template site signals a lack of modernization. GOATEDDD builds high-performance, custom B2B digital architectures that load instantly, secure your client portals, and establish authoritative market presence."
+    },
+    {
+      "question": "Can you integrate our legacy ERP or supply-chain tracking databases?",
+      "answer": "Yes. We are full-stack database architects. We specialize in building secure, custom-engineered APIs and middleware that seamlessly bridge your legacy ERP systems, logistics databases, or inventory tracking systems with modern, fast-loading user interfaces."
+    },
+    {
+      "question": "What local SEO strategies do you use for Arkansas River Valley B2B markets?",
+      "answer": "We construct programmatic, crawl-optimized SEO pipelines featuring structured schema markups (JSON-LD) and ultra-clean semantic HTML. By delivering millisecond-level load times, we guarantee your Fort Smith business ranks at the absolute apex of search engines."
+    }
+  ],
+  "regionalCopy": {
+    "headline": "DIGITAL MODERNIZATION FOR FORT SMITH'S INDUSTRIAL POWERHOUSES",
+    "intro": "In a historic hub built on manufacturing and heavy logistics, digital systems must be as strong as iron. GOATEDDD replaces obsolete, lagging templates with custom, high-velocity digital machinery built for industrial leaders, logistics firms, and enterprise manufacturers.",
+    "painPoints": [
+      {
+        "issue": "Legacy System Decay",
+        "detail": "Outdated B2B portals built on vulnerable, sluggish architectures that fail modern procurement security audits."
+      },
+      {
+        "issue": "Invisible Search Authority",
+        "detail": "Slow-loading, non-optimized legacy websites losing top-tier commercial bids to regional tech-forward competitors."
+      }
+    ],
+    "solution": "We deploy secure, custom-coded web architectures optimized with Vite, secure Node.js backends, and robust API pipelines ensuring flawless performance.",
+    "pricingHighlight": "Industrial and B2B modernization engagements starting from $15,000. Legally backed by registered MSME Master Service Agreement standards."
+  }
+}

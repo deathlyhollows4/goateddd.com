@@ -1,0 +1,119 @@
+{
+  "id": "website-care",
+  "title": "Continuous Care & Technical Support",
+  "tagline": "We keep your website secure, fast, and online. 24/7 technical support. No downtime.",
+  "voice_note": "A website requires continuous maintenance. We handle server updates, security scans, automated backups, and developer updates so your business never goes dark.",
+  "overview": "Outdated software breaks. Security vulnerabilities destroy customer trust. We monitor your website's performance around the clock. We patch core systems, verify daily backups, and resolve hosting bottlenecks instantly before your users notice an issue.",
+  "outcomes": [
+    {
+      "metric": "99.99%",
+      "label": "Guaranteed Website Uptime"
+    },
+    {
+      "metric": "&lt; 15m",
+      "label": "Emergency Incident Response Time"
+    },
+    {
+      "metric": "100%",
+      "label": "Automated Daily Backups"
+    }
+  ],
+  "features": [
+    {
+      "title": "Active Performance & Uptime Monitoring",
+      "description": "We ping your server every 60 seconds from multiple global nodes. If a degradation in speed or a connection dropout occurs, our system alerts our on-duty engineers immediately.",
+      "benefit": "Your site never stays down, protecting your ad spend and brand authority."
+    },
+    {
+      "title": "Security Audits & Patch Management",
+      "description": "We configure advanced web application firewalls, block malicious IP ranges, audit user permissions, and install security updates weekly.",
+      "benefit": "Prevents unauthorized database access, code injections, and malware infections."
+    },
+    {
+      "title": "Automated Multi-Region Backups",
+      "description": "We take daily snapshots of your database and system files. We store these backups on separate, encrypted cloud servers in multiple geographic regions.",
+      "benefit": "Complete data recovery is possible in minutes, ensuring zero business data loss."
+    },
+    {
+      "title": "Priority Engineering Retainers",
+      "description": "You get direct, priority access to senior developers. Submit tickets for UI tweaks, copy revisions, form logic changes, or new integrations.",
+      "benefit": "No waiting weeks for an expensive developer quote. Edits are handled in hours."
+    }
+  ],
+  "capabilities": [
+    "24/7 server performance & uptime pings",
+    "Encrypted daily cloud database backups",
+    "WordPress & Shopify security patching",
+    "Broken link and redirect corrections",
+    "Domain name & SSL certificate management",
+    "Core Web Vitals monthly velocity audits",
+    "Direct Slack developer support access"
+  ],
+  "pricing": {
+    "currency": "USD",
+    "plans": [
+      {
+        "tier": "Core Technical Maintenance",
+        "starting_price": 299,
+        "pricing_model": "Monthly subscription",
+        "timeline": "Monthly basis",
+        "description": "For businesses that require basic security, automated updates, and guaranteed data safety.",
+        "deliverables": [
+          "24/7 automated uptime and speed monitoring",
+          "Weekly security patches and software core updates",
+          "Automated daily backups with 30-day archival retention",
+          "SSL certificate renewal and domain health audits",
+          "Email ticketing system with standard 24-hour response"
+        ]
+      },
+      {
+        "tier": "Enterprise Developer Retainer",
+        "starting_price": 950,
+        "pricing_model": "Monthly subscription",
+        "timeline": "Monthly basis",
+        "description": "For high-traffic platforms requiring monthly UI updates, new landing pages, and rapid priority engineering.",
+        "deliverables": [
+          "Includes 5 hours of dedicated senior developer time monthly",
+          "Priority support ticketing queue (under 2-hour response)",
+          "Monthly Core Web Vitals speed and database optimization",
+          "Direct Slack developer channel connection for quick tasks",
+          "Uptime reports and performance recommendation logs"
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What happens if our website goes offline in the middle of the night?",
+      "answer": "Our monitoring system pings our engineering team immediately. If the server goes offline, we begin resolution protocols within 15 minutes. We resolve server-level blocks and interface crashes, and we communicate updates to your designated contact person."
+    },
+    {
+      "question": "What platforms are supported by your Website Care plans?",
+      "answer": "We manage custom HTML/CSS sites, Astro, Next.js, headless architectures, WordPress, and Shopify environments. We do not support outdated, proprietary site builders that limit access to the server layer."
+    },
+    {
+      "question": "Are we locked into a long-term service contract?",
+      "answer": "No. Our care plans are billed month-to-month. You can cancel, upgrade, or downgrade your tier at any time with 30 days notice. We believe our technical value keeps you, not a restrictive contract."
+    },
+    {
+      "question": "What counts as 'emergency support' under your plans?",
+      "answer": "Emergency issues are critical errors that prevent your customers from interacting with your business. This includes the website being offline, payment processing failing, contact forms throwing server errors, or security breaches."
+    },
+    {
+      "question": "What happens to our unused development support hours each month?",
+      "answer": "To maintain dedicated staff capacity, monthly support hours do not roll over to the following month. We recommend scheduling minor visual edits, blog formatting, or technical optimizations if you see hours remaining."
+    },
+    {
+      "question": "How do you run system updates without breaking our live site?",
+      "answer": "We never run updates directly on your live production site. We clone your website to a staging environment, run the updates, test all forms and pages for compatibility issues, and deploy to production only after verification."
+    },
+    {
+      "question": "Do you host our website on your servers, or do we host it?",
+      "answer": "We recommend hosting your site on high-performance platforms like Vercel, Netlify, WP Engine, or AWS. We help you set up and configure accounts in your own name. This ensures you maintain full ownership of your data."
+    },
+    {
+      "question": "How do we submit edit requests and support tickets?",
+      "answer": "Core subscribers submit tickets through our client portal email system. Enterprise subscribers get a dedicated Slack channel where they can tag our developers directly. Standard requests are scheduled and completed within 24 to 48 hours."
+    }
+  ]
+}

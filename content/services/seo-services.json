@@ -1,0 +1,119 @@
+{
+  "id": "seo-services",
+  "title": "Technical & Programmatic SEO",
+  "tagline": "We make search engines find, index, and rank your website. No fluff. Just organic revenue.",
+  "voice_note": "Most SEO agencies focus on vanity traffic. We focus on search queries that lead to conversions. We optimize code, write clean schema, and scale pages programmatically.",
+  "overview": "If Google cannot crawl your site efficiently, your content does not rank. We rebuild your site's technical foundation, deploy structured schema, and develop programmatic scaling systems to dominate high-intent keywords in your B2B sector.",
+  "outcomes": [
+    {
+      "metric": "+140%",
+      "label": "Average Organic Conversions Increase"
+    },
+    {
+      "metric": "10x",
+      "label": "Faster Crawl and Indexing Speeds"
+    },
+    {
+      "metric": "100%",
+      "label": "Structured Data and Schema Validity"
+    }
+  ],
+  "features": [
+    {
+      "title": "Technical SEO Audits & Code Fixes",
+      "description": "We do not just hand you a PDF report. We go into your codebase to fix crawling bottlenecks, eliminate indexation loops, and resolve render-blocking scripts.",
+      "benefit": "Search engines crawl more of your high-value pages with less computing effort."
+    },
+    {
+      "title": "Programmatic SEO Frameworks",
+      "description": "We construct database-driven page templates that target thousands of long-tail, high-intent searches automatically without duplicating content.",
+      "benefit": "Scales your search footprint rapidly at a fraction of the cost of manual page creation."
+    },
+    {
+      "title": "Advanced Schema & Semantic Markup",
+      "description": "We write custom JSON-LD schema markup for your services, products, FAQs, and organization.",
+      "benefit": "Enables rich snippets in Google search results, raising your click-through rates."
+    },
+    {
+      "title": "Conversion-Oriented Content Optimization",
+      "description": "We analyze existing rankings and rewrite critical landing page structures. We remove empty buzzwords and match buyer search intent precisely.",
+      "benefit": "Transforms casual searchers into leads and sales pipelines."
+    }
+  ],
+  "capabilities": [
+    "Core Web Vitals remediation",
+    "JSON-LD structured data engineering",
+    "Programmatic keyword-to-page automation",
+    "Crawl budget optimization",
+    "Indexation and robots.txt configuration",
+    "B2B search intent architecture",
+    "Competitor search intelligence tracking"
+  ],
+  "pricing": {
+    "currency": "USD",
+    "plans": [
+      {
+        "tier": "Technical Foundation & Schema",
+        "starting_price": 4500,
+        "pricing_model": "One-time setup",
+        "timeline": "3-4 weeks",
+        "description": "For businesses whose websites have low search visibility due to structural errors and crawling issues.",
+        "deliverables": [
+          "Complete codebase crawl analysis",
+          "Direct code-level fixes for page speeds and rendering",
+          "Advanced JSON-LD schema implementation across all pages",
+          "XML sitemap and robots.txt diagnostic and configuration",
+          "Google Search Console optimization and index request setup"
+        ]
+      },
+      {
+        "tier": "Programmatic Scale & Growth",
+        "starting_price": 6000,
+        "pricing_model": "Monthly retainer (minimum 3 months)",
+        "timeline": "Ongoing",
+        "description": "For enterprises aiming to scale search visibility to capture hundreds of distinct local or vertical intent searches.",
+        "deliverables": [
+          "Custom programmatic database setup and page generation engine",
+          "Ongoing technical performance and index status monitoring",
+          "Targeted keyword content updates and on-page optimization",
+          "In-depth monthly pipeline and conversion attribution reports",
+          "Continuous rich snippet optimization"
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How long does it take to see organic search traffic increases?",
+      "answer": "Technical fixes often show index updates and crawling improvements within 7 to 14 days. Core ranking and organic traffic increases typically mature over 60 to 90 days as search engine algorithms re-crawl your updated platform and establish trust."
+    },
+    {
+      "question": "What is programmatic SEO, and does Google consider it spam?",
+      "answer": "Programmatic SEO builds landing pages at scale using structured data templates. Google does not penalize programmatic pages if they provide unique, high-quality information that directly solves the searcher's query. We construct templates that offer concrete data and specific solutions, avoiding thin, generic content."
+    },
+    {
+      "question": "Why do you emphasize site speed for search rankings?",
+      "answer": "Google uses Core Web Vitals as a direct ranking factor. Fast-loading sites keep users on the page longer, reducing bounces. Slow pages lose traffic before the browser even renders. We optimize web performance to guarantee you pass Google's speed benchmarks."
+    },
+    {
+      "question": "Do you generate backlinks to our website?",
+      "answer": "We focus primarily on technical SEO, site speed, programmatic systems, and high-performance content. While we assist in creating resource assets that organically earn links, we do not engage in artificial, low-quality link buying schemes which can lead to search engine penalties."
+    },
+    {
+      "question": "What is Schema markup, and how does it help?",
+      "answer": "Schema markup is structured JSON-LD code added to your website. It explains the exact meaning of your content to search engines. It allows search engines to display rich results, such as FAQ dropdowns, star ratings, and price ranges, which increases search click rates."
+    },
+    {
+      "question": "Do we need ongoing SEO management, or is a one-time setup enough?",
+      "answer": "A one-time technical setup repairs broken foundations. It is ideal for modernizing clean structures. However, search trends change and competitors publish new pages. Monthly retainers are designed for scaling programmatic content, monitoring performance drift, and securing high-difficulty keywords."
+    },
+    {
+      "question": "How do you define high-intent keywords?",
+      "answer": "High-intent keywords indicate the searcher is ready to buy or hire (e.g., 'headless ecommerce developers in Chicago' rather than 'what is headless web development'). We target phrases where the user's intent matches your B2B sales pipeline."
+    },
+    {
+      "question": "Do you guarantee that we will rank number one on Google?",
+      "answer": "No ethical engineer guarantees number one rankings. Google's proprietary algorithm updates continuously. We guarantee to build a faster, technically superior, and better-structured website than your competitors, which maximizes your organic growth."
+    }
+  ]
+}

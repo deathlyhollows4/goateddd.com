@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Continuous Care & Technical Support | GOATEDDD Service</title>
+  <meta name="description" content="We keep your website secure, fast, and online. 24/7 technical support. No downtime.">
+
+  <!-- SEO Sitemap and Search Engine Verifications -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+  <meta name="google-site-verification" content="z_GOATEDDD_Apex_Rank_SEO_Verification_Key_2026">
+  
+  <!-- Apple Touch & Favicon Assets -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <meta name="theme-color" content="#07070a">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://goateddd.com/services/website-care/">
+  <meta property="og:title" content="Continuous Care & Technical Support">
+  <meta property="og:description" content="We keep your website secure, fast, and online. 24/7 technical support. No downtime.">
+  <meta property="og:image" content="https://goateddd.com/assets/hero_artwork.webp">
+
+  <!-- Twitter / X Card Configurations -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Continuous Care & Technical Support">
+  <meta name="twitter:description" content="We keep your website secure, fast, and online. 24/7 technical support. No downtime.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  
+  <!-- Inherit core studio styling from main index.css -->
+  <link rel="stylesheet" href="/index.css">
+
+  <style>
+    .service-header {
+      padding-top: 180px;
+      padding-bottom: 60px;
+      text-align: left;
+      position: relative;
+      z-index: 2;
+    }
+
+    .service-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(159, 90, 253, 0.08);
+      border: 1px solid rgba(159, 90, 253, 0.2);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-family: var(--font-jakarta);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: var(--accent-pink);
+      margin-bottom: 24px;
+    }
+
+    .service-headline {
+      font-size: 4.8vw;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      margin-bottom: 30px;
+      max-width: 1000px;
+    }
+
+    @media (max-width: 768px) {
+      .service-headline {
+        font-size: 2.5rem;
+      }
+    }
+
+    .tagline-desc {
+      font-size: 1.35rem;
+      line-height: 1.6;
+      font-weight: 300;
+      color: var(--text-light);
+      max-width: 800px;
+      margin-bottom: 40px;
+    }
+
+    .voice-note-card {
+      background: rgba(159, 90, 253, 0.03);
+      border-left: 3px solid var(--accent-purple);
+      border-radius: 0 16px 16px 0;
+      padding: 24px 30px;
+      font-style: italic;
+      color: var(--accent-champagne);
+      font-family: var(--font-syne);
+      font-size: 1.1rem;
+      margin-bottom: 60px;
+      max-width: 800px;
+    }
+
+    /* outcomes grid */
+    .outcomes-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-bottom: 80px;
+    }
+
+    @media (max-width: 768px) {
+      .outcomes-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+    }
+
+    .outcome-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 40px 30px;
+      text-align: center;
+      transition: all 0.4s ease;
+    }
+
+    .outcome-card:hover {
+      border-color: var(--accent-purple);
+      box-shadow: 0 10px 30px rgba(159, 90, 253, 0.1);
+    }
+
+    .outcome-metric {
+      font-family: var(--font-syne);
+      font-size: 3rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--text-light) 30%, var(--accent-purple) 70%, var(--accent-pink) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 12px;
+    }
+
+    .outcome-label {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    /* Overview Section */
+    .section-title-small {
+      font-family: var(--font-syne);
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 0.2em;
+      color: var(--accent-purple);
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .overview-text {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: rgba(248, 248, 248, 0.8);
+      margin-bottom: 80px;
+      max-width: 900px;
+    }
+
+    /* Capabilities list */
+    .capabilities-section {
+      margin-bottom: 80px;
+    }
+
+    .capabilities-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px 40px;
+      list-style: none;
+      padding: 0;
+    }
+
+    @media (max-width: 768px) {
+      .capabilities-list {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .capability-item {
+      font-size: 1.1rem;
+      color: var(--text-light);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .capability-bullet {
+      width: 8px;
+      height: 8px;
+      background-color: var(--accent-pink);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--accent-pink);
+    }
+
+    /* Features Grid */
+    .features-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-bottom: 80px;
+    }
+
+    @media (max-width: 768px) {
+      .features-row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .feature-card {
+      background: var(--glass-fill);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 50px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 320px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .feature-card:hover {
+      border-color: rgba(159, 90, 253, 0.4);
+      box-shadow: 0 15px 35px rgba(159, 90, 253, 0.08);
+    }
+
+    .feature-card-glow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(159, 90, 253, 0.04) 0%, transparent 100%);
+      pointer-events: none;
+    }
+
+    .feature-card-title {
+      font-family: var(--font-syne);
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+      color: var(--text-light);
+    }
+
+    .feature-card-desc {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: var(--text-muted);
+      margin-bottom: 30px;
+    }
+
+    .feature-card-benefit {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--accent-champagne);
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      padding-top: 20px;
+    }
+
+    /* Pricing section */
+    .pricing-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-bottom: 80px;
+    }
+
+    @media (max-width: 991px) {
+      .pricing-row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .plan-card {
+      background: var(--glass-fill);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    .plan-card.premium-plan {
+      border-color: rgba(255, 141, 242, 0.3);
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 141, 242, 0.02) 100%);
+    }
+
+    .plan-badge {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      background: rgba(255, 141, 242, 0.1);
+      border: 1px solid rgba(255, 141, 242, 0.25);
+      color: var(--accent-pink);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+
+    .plan-tier {
+      font-family: var(--font-syne);
+      font-size: 1.85rem;
+      color: var(--text-light);
+      margin-bottom: 12px;
+    }
+
+    .plan-meta {
+      display: flex;
+      gap: 20px;
+      font-size: 0.85rem;
+      color: var(--accent-champagne);
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    .plan-price {
+      font-family: var(--font-syne);
+      font-size: 3rem;
+      font-weight: 800;
+      color: var(--text-light);
+      margin-bottom: 24px;
+    }
+
+    .plan-price span {
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--text-muted);
+    }
+
+    .plan-desc {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: var(--text-muted);
+      margin-bottom: 40px;
+    }
+
+    .plan-deliverables-title {
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: var(--text-light);
+      letter-spacing: 0.1em;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    .plan-deliverables {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .plan-deliverable-item {
+      font-size: 0.95rem;
+      color: rgba(248, 248, 248, 0.8);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .plan-check {
+      color: var(--accent-purple);
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Skiplink for keyboard navigation compliance -->
+  <a href="#main-content" class="skip-to-content" style="position: absolute; top: -100px; left: 20px; background: var(--accent-purple); color: #fff; padding: 12px 24px; border-radius: 8px; z-index: 9999; transition: top 0.3s; font-family: var(--font-jakarta); font-weight: 700; text-decoration: none;" onfocus="this.style.top='20px'" onblur="this.style.top='-100px'">Skip to Content</a>
+
+  <!-- Loading State -->
+  <div id="loader" class="loader">
+    <div class="loader-content">
+      <span class="loader-text">GOATEDDD</span>
+      <div class="loader-bar-container">
+        <div class="loader-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div id="custom-cursor" class="custom-cursor">
+    <div class="cursor-glare"></div>
+    <div class="cursor-glare-2"></div>
+    <span class="cursor-text">EXPLORE</span>
+  </div>
+
+  <!-- Dynamic Ambient Orbs -->
+  <div class="ambient-background">
+    <canvas id="ambient-particles" class="ambient-particles"></canvas>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Fullscreen Glass Menu Overlay -->
+  <div id="menu-overlay" class="menu-overlay" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Navigation Menu">
+    <div class="menu-overlay-bg"></div>
+    <div class="container menu-overlay-container">
+      
+      <div class="menu-overlay-links">
+        <a href="/" class="menu-overlay-link">
+          <span class="link-num">01</span>
+          <span class="link-txt">HOME</span>
+        </a>
+        <a href="/#showreel" class="menu-overlay-link">
+          <span class="link-num">02</span>
+          <span class="link-txt">ABOUT</span>
+        </a>
+        <a href="/#work" class="menu-overlay-link">
+          <span class="link-num">03</span>
+          <span class="link-txt">WORK</span>
+        </a>
+        <a href="/services/" class="menu-overlay-link">
+          <span class="link-num">04</span>
+          <span class="link-txt">SERVICES</span>
+        </a>
+        <a href="/#testimonials" class="menu-overlay-link">
+          <span class="link-num">05</span>
+          <span class="link-txt">REVIEWS</span>
+        </a>
+      </div>
+
+      <div class="menu-overlay-footer">
+        <div class="menu-footer-col">
+          <span class="menu-col-title">LET'S CONNECT</span>
+          <a href="mailto:hello@goateddd.com" class="menu-footer-item contact-trigger">hello@goateddd.com</a>
+        </div>
+        <div class="menu-footer-col">
+          <span class="menu-col-title">SOCIAL CHANNELS</span>
+          <div class="menu-social-links">
+            <a href="https://instagram.com/goateddd_studio" class="menu-footer-item">Instagram</a>
+            <a href="https://linkedin.com/company/goateddd" class="menu-footer-item">LinkedIn</a>
+            <a href="https://dribbble.com/goateddd" class="menu-footer-item">Dribbble</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Smooth Scroll Wrapper -->
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+
+      <!-- Navigation Header -->
+      <header class="header" role="banner">
+        <div class="nav-container">
+          <a href="/" class="brand-logo" aria-label="GOATEDDD Home">GOATEDDD</a>
+          
+          <nav class="nav-links" aria-label="Primary Navigation">
+            <a href="/" class="nav-link-item">Home</a>
+            <a href="/#showreel" class="nav-link-item">About</a>
+            <a href="/#work" class="nav-link-item">Work</a>
+            <a href="/services/" class="nav-link-item">Services</a>
+            <a href="/#testimonials" class="nav-link-item">Reviews</a>
+          </nav>
+
+          <!-- Glass Hamburger menu trigger -->
+          <button id="menu-btn" class="menu-btn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="menu-overlay">
+            <span class="btn-line line-1"></span>
+            <span class="btn-line line-2"></span>
+          </button>
+        </div>
+      </header>
+
+      <main id="main-content" role="main" aria-label="Service Details">
+        <div class="container">
+          
+          <!-- Service Header Section -->
+          <header class="service-header">
+            <span class="service-badge">OUR PROFESSIONAL SERVICE</span>
+            
+            <h1 class="service-headline gradient-text">
+              Continuous Care & Technical Support
+            </h1>
+            
+            <p class="tagline-desc">We keep your website secure, fast, and online. 24/7 technical support. No downtime.</p>
+
+            <div class="voice-note-card">
+              "A website requires continuous maintenance. We handle server updates, security scans, automated backups, and developer updates so your business never goes dark."
+            </div>
+          </header>
+
+          <!-- outcomes / performance indicators -->
+          <section class="outcomes-section" aria-label="Performance Outcomes">
+            <h2 class="section-title-small">EXPECTED OUTCOMES</h2>
+            <div class="outcomes-row">
+              
+        <div class="outcome-card">
+          <div class="outcome-metric">99.99%</div>
+          <div class="outcome-label">Guaranteed Website Uptime</div>
+        </div>
+        <div class="outcome-card">
+          <div class="outcome-metric">&lt; 15m</div>
+          <div class="outcome-label">Emergency Incident Response Time</div>
+        </div>
+        <div class="outcome-card">
+          <div class="outcome-metric">100%</div>
+          <div class="outcome-label">Automated Daily Backups</div>
+        </div>
+            </div>
+          </section>
+
+          <!-- Overview & Capabilities section -->
+          <section class="overview-section" aria-label="Overview & Capabilities">
+            <h2 class="section-title-small">THE APEX APPROACH</h2>
+            <p class="overview-text">Outdated software breaks. Security vulnerabilities destroy customer trust. We monitor your website's performance around the clock. We patch core systems, verify daily backups, and resolve hosting bottlenecks instantly before your users notice an issue.</p>
+
+            <div class="capabilities-section">
+              <h3 class="section-title-small">SERVICE CAPABILITIES</h3>
+              <ul class="capabilities-list">
+                
+        <li class="capability-item">
+          <span class="capability-bullet"></span>
+          <span>24/7 server performance & uptime pings</span>
+        </li>
+        <li class="capability-item">
+          <span class="capability-bullet"></span>
+          <span>Encrypted daily cloud database backups</span>
+        </li>
+        <li class="capability-item">
+          <span class="capability-bullet"></span>
+          <span>WordPress & Shopify security patching</span>
+        </li>
+        <li class="capability-item">
+          <span class="capability-bullet"></span>
+          <span>Broken link and redirect corrections</span>
+        </li>
+        <li class="capability-item">
+          <span class="capability-bullet"></span>
+          <span>Domain name & SSL certificate management</span>
+        </li>
+        <li class="capability-item">
+          <span class="capability-bullet"></span>
+          <span>Core Web Vitals monthly velocity audits</span>
+        </li>
+        <li class="capability-item">
+          <span class="capability-bullet"></span>
+          <span>Direct Slack developer support access</span>
+        </li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Features Section -->
+          <section class="features-section" aria-label="Service Features">
+            <h2 class="section-title-small">CORE CHARACTERISTICS</h2>
+            <div class="features-row">
+              
+        <div class="feature-card">
+          <div class="feature-card-glow"></div>
+          <div>
+            <h3 class="feature-card-title">Active Performance & Uptime Monitoring</h3>
+            <p class="feature-card-desc">We ping your server every 60 seconds from multiple global nodes. If a degradation in speed or a connection dropout occurs, our system alerts our on-duty engineers immediately.</p>
+          </div>
+          <div class="feature-card-benefit">
+            <span style="color: var(--accent-purple);">Benefit:</span> Your site never stays down, protecting your ad spend and brand authority.
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-glow"></div>
+          <div>
+            <h3 class="feature-card-title">Security Audits & Patch Management</h3>
+            <p class="feature-card-desc">We configure advanced web application firewalls, block malicious IP ranges, audit user permissions, and install security updates weekly.</p>
+          </div>
+          <div class="feature-card-benefit">
+            <span style="color: var(--accent-purple);">Benefit:</span> Prevents unauthorized database access, code injections, and malware infections.
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-glow"></div>
+          <div>
+            <h3 class="feature-card-title">Automated Multi-Region Backups</h3>
+            <p class="feature-card-desc">We take daily snapshots of your database and system files. We store these backups on separate, encrypted cloud servers in multiple geographic regions.</p>
+          </div>
+          <div class="feature-card-benefit">
+            <span style="color: var(--accent-purple);">Benefit:</span> Complete data recovery is possible in minutes, ensuring zero business data loss.
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card-glow"></div>
+          <div>
+            <h3 class="feature-card-title">Priority Engineering Retainers</h3>
+            <p class="feature-card-desc">You get direct, priority access to senior developers. Submit tickets for UI tweaks, copy revisions, form logic changes, or new integrations.</p>
+          </div>
+          <div class="feature-card-benefit">
+            <span style="color: var(--accent-purple);">Benefit:</span> No waiting weeks for an expensive developer quote. Edits are handled in hours.
+          </div>
+        </div>
+            </div>
+          </section>
+
+          <!-- Pricing & Engagement Plans -->
+          <section class="pricing-section" aria-label="Pricing & Engagement Models">
+            <h2 class="section-title-small">INVESTMENT & ENGAGEMENT</h2>
+            <div class="pricing-row">
+              
+        <div class="plan-card">
+          
+          <div>
+            <h3 class="plan-tier">Core Technical Maintenance</h3>
+            <div class="plan-meta">
+              <span>Monthly subscription</span>
+              <span>•</span>
+              <span>Monthly basis</span>
+            </div>
+            <div class="plan-price">$299<span> starting</span></div>
+            <p class="plan-desc">For businesses that require basic security, automated updates, and guaranteed data safety.</p>
+          </div>
+          <div>
+            <h4 class="plan-deliverables-title">WHAT'S INCLUDED</h4>
+            <ul class="plan-deliverables">
+              
+          <li class="plan-deliverable-item">
+            <span class="plan-check">✓</span>
+            <span>24/7 automated uptime and speed monitoring</span>
+          </li>
+          <li class="plan-deliverable-item">
+            <span class="plan-check">✓</span>
+            <span>Weekly security patches and software core updates</span>
+          </li>
+          <li class="plan-deliverable-item">
+            <span class="plan-check">✓</span>
+            <span>Automated daily backups with 30-day archival retention</span>
+          </li>
+          <li class="plan-deliverable-item">
+            <span class="plan-check">✓</span>
+            <span>SSL certificate renewal and domain health audits</span>
+          </li>
+          <li class="plan-deliverable-item">
+            <span class="plan-check">✓</span>
+            <span>Email ticketing system with standard 24-hour response</span>
+          </li>
+            </ul>
+          </div>
+        </div>
+        <div class="plan-card premium-plan">
+          <span class="plan-badge">POPULAR</span>
+          <div>
+            <h3 class="plan-tier">Enterprise Developer Retainer</h3>
+            <div class="plan-meta">
+              <span>Monthly subscription</span>
+              <span>•</span>
+              <span>Monthly basis</span>
+            </div>
+            <div class="plan-price">$950<span> starting</span></div>
+            <p class="plan-desc">For high-traffic platforms requiring monthly UI updates, new landing pages, and rapid priority engineering.</p>
+          </div>
+          <div>
+            <h4 class="plan-deliverables-title">WHAT'S INCLUDED</h4>
+            <ul class="plan-deliverables">
+              
+          <li class="plan-deliverable-item">
+            <span class="plan-check">✓</span>
+            <span>Includes 5 hours of dedicated senior developer time monthly</span>
+          </li>
+          <li class="plan-deliverable-item">
+            <span class="plan-check">✓</span>
+            <span>Priority support ticketing queue (under 2-hour response)</span>
+          </li>
+          <li class="plan-deliverable-item">
+            <span class="plan-check">✓</span>
+            <span>Monthly Core Web Vitals speed and database optimization</span>
+          </li>
+          <li class="plan-deliverable-item">
+            <span class="plan-check">✓</span>
+            <span>Direct Slack developer channel connection for quick tasks</span>
+          </li>
+          <li class="plan-deliverable-item">
+            <span class="plan-check">✓</span>
+            <span>Uptime reports and performance recommendation logs</span>
+          </li>
+            </ul>
+          </div>
+        </div>
+            </div>
+          </section>
+
+          <!-- FAQ Section (Accordion) -->
+          <div class="faq-container">
+            <div class="faq-intro">
+              <h2 class="faq-section-title"><span class="tag-glow">FAQ</span><br>SERVICE DEEP <span class="gradient-text font-editorial">DIVE</span></h2>
+            </div>
+            
+            <div class="faq-accordion" role="presentation">
+              
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-0">
+            <span class="faq-number">01</span>
+            <span class="faq-question">What happens if our website goes offline in the middle of the night?</span>
+            <span class="faq-icon-wrapper">
+              <span class="faq-icon-line line-h"></span>
+              <span class="faq-icon-line line-v"></span>
+            </span>
+          </button>
+          <div id="faq-ans-0" class="faq-content" role="region" aria-label="Answer 01">
+            <div class="faq-content-inner">
+              <p>Our monitoring system pings our engineering team immediately. If the server goes offline, we begin resolution protocols within 15 minutes. We resolve server-level blocks and interface crashes, and we communicate updates to your designated contact person.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-1">
+            <span class="faq-number">02</span>
+            <span class="faq-question">What platforms are supported by your Website Care plans?</span>
+            <span class="faq-icon-wrapper">
+              <span class="faq-icon-line line-h"></span>
+              <span class="faq-icon-line line-v"></span>
+            </span>
+          </button>
+          <div id="faq-ans-1" class="faq-content" role="region" aria-label="Answer 02">
+            <div class="faq-content-inner">
+              <p>We manage custom HTML/CSS sites, Astro, Next.js, headless architectures, WordPress, and Shopify environments. We do not support outdated, proprietary site builders that limit access to the server layer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-2">
+            <span class="faq-number">03</span>
+            <span class="faq-question">Are we locked into a long-term service contract?</span>
+            <span class="faq-icon-wrapper">
+              <span class="faq-icon-line line-h"></span>
+              <span class="faq-icon-line line-v"></span>
+            </span>
+          </button>
+          <div id="faq-ans-2" class="faq-content" role="region" aria-label="Answer 03">
+            <div class="faq-content-inner">
+              <p>No. Our care plans are billed month-to-month. You can cancel, upgrade, or downgrade your tier at any time with 30 days notice. We believe our technical value keeps you, not a restrictive contract.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-3">
+            <span class="faq-number">04</span>
+            <span class="faq-question">What counts as 'emergency support' under your plans?</span>
+            <span class="faq-icon-wrapper">
+              <span class="faq-icon-line line-h"></span>
+              <span class="faq-icon-line line-v"></span>
+            </span>
+          </button>
+          <div id="faq-ans-3" class="faq-content" role="region" aria-label="Answer 04">
+            <div class="faq-content-inner">
+              <p>Emergency issues are critical errors that prevent your customers from interacting with your business. This includes the website being offline, payment processing failing, contact forms throwing server errors, or security breaches.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-4">
+            <span class="faq-number">05</span>
+            <span class="faq-question">What happens to our unused development support hours each month?</span>
+            <span class="faq-icon-wrapper">
+              <span class="faq-icon-line line-h"></span>
+              <span class="faq-icon-line line-v"></span>
+            </span>
+          </button>
+          <div id="faq-ans-4" class="faq-content" role="region" aria-label="Answer 05">
+            <div class="faq-content-inner">
+              <p>To maintain dedicated staff capacity, monthly support hours do not roll over to the following month. We recommend scheduling minor visual edits, blog formatting, or technical optimizations if you see hours remaining.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-5">
+            <span class="faq-number">06</span>
+            <span class="faq-question">How do you run system updates without breaking our live site?</span>
+            <span class="faq-icon-wrapper">
+              <span class="faq-icon-line line-h"></span>
+              <span class="faq-icon-line line-v"></span>
+            </span>
+          </button>
+          <div id="faq-ans-5" class="faq-content" role="region" aria-label="Answer 06">
+            <div class="faq-content-inner">
+              <p>We never run updates directly on your live production site. We clone your website to a staging environment, run the updates, test all forms and pages for compatibility issues, and deploy to production only after verification.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-6">
+            <span class="faq-number">07</span>
+            <span class="faq-question">Do you host our website on your servers, or do we host it?</span>
+            <span class="faq-icon-wrapper">
+              <span class="faq-icon-line line-h"></span>
+              <span class="faq-icon-line line-v"></span>
+            </span>
+          </button>
+          <div id="faq-ans-6" class="faq-content" role="region" aria-label="Answer 07">
+            <div class="faq-content-inner">
+              <p>We recommend hosting your site on high-performance platforms like Vercel, Netlify, WP Engine, or AWS. We help you set up and configure accounts in your own name. This ensures you maintain full ownership of your data.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-7">
+            <span class="faq-number">08</span>
+            <span class="faq-question">How do we submit edit requests and support tickets?</span>
+            <span class="faq-icon-wrapper">
+              <span class="faq-icon-line line-h"></span>
+              <span class="faq-icon-line line-v"></span>
+            </span>
+          </button>
+          <div id="faq-ans-7" class="faq-content" role="region" aria-label="Answer 08">
+            <div class="faq-content-inner">
+              <p>Core subscribers submit tickets through our client portal email system. Enterprise subscribers get a dedicated Slack channel where they can tag our developers directly. Standard requests are scheduled and completed within 24 to 48 hours.</p>
+            </div>
+          </div>
+        </div>
+            </div>
+          </div>
+
+        </div>
+      </main>
+
+      <!-- Standard Studio Footer -->
+      <footer class="footer" role="contentinfo">
+        <div class="footer-sand-block">
+          <div class="container">
+            
+            <div class="footer-top">
+              <h2 class="footer-headline">WE ARE <br><span class="font-editorial">GOATEDDD</span></h2>
+              <div class="footer-action-box">
+                <span class="footer-small">CLAIM THE APEX STANDARD</span>
+                <a href="mailto:hello@goateddd.com" class="footer-mail-link">
+                  hello@goateddd.com
+                  <span class="mail-arrow" aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              
+              <div class="footer-col">
+                <span class="col-title">NAVIGATION</span>
+                <a href="/" class="col-item">Home</a>
+                <a href="/#showreel" class="col-item">About</a>
+                <a href="/#work" class="col-item">Work</a>
+                <a href="/#testimonials" class="col-item">Reviews</a>
+              </div>
+
+              <div class="footer-col">
+                <span class="col-title">OUR SERVICES</span>
+                <a href="/services/custom-web-design/" class="col-item">Web Design</a>
+                <a href="/services/seo-services/" class="col-item">SEO Services</a>
+                <a href="/services/performance-marketing/" class="col-item">Performance Marketing</a>
+                <a href="/services/graphic-design/" class="col-item">Graphic Design</a>
+              </div>
+
+              <div class="footer-col msme-col">
+                <div class="msme-badge-shield" tabindex="0" aria-label="GOATEDDD studio Registered MSME Certificate Profile">
+                  <div class="shield-ambient-glow"></div>
+                  <div class="shield-inner">
+                    <svg class="msme-emblem-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <polygon points="50,5 92,25 92,65 50,95 8,65 8,25" fill="#07070a" stroke="#ffd2a9" stroke-width="2"/>
+                      <polygon points="50,12 85,29 85,61 50,86 15,61 15,29" fill="rgba(255,210,169,0.06)" stroke="#ffd2a9" stroke-width="1" stroke-dasharray="3,3"/>
+                      <path d="M35,38 L45,45 L65,30 M35,46 L45,53 L65,38 M35,54 L45,61 L65,46" stroke="#ff8df2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      <circle cx="50" cy="50" r="4" fill="#ffd2a9"/>
+                    </svg>
+                    <div class="shield-body">
+                      <span class="msme-gov-title">REGISTRATION ACTIVE</span>
+                      <span class="msme-reg-title">GOATEDDD STUDIO</span>
+                      <div class="msme-divider"></div>
+                      <span class="msme-label">MSME UDYAM NUMBER</span>
+                      <span class="msme-code">UDYAM-TX-03-09952</span>
+                      <span class="msme-subtext">APEX ENGINEERING</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="footer-col copyright-col">
+                <span class="col-title">OFFICE</span>
+                <p class="col-item" style="pointer-events: none;">Austin, Texas</p>
+                <p class="col-item" style="pointer-events: none; margin-top: 12px; font-size: 0.85rem; color: #0c0d127a;">
+                  © 2026 GOATEDDD. <br>All architectural rights reserved.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <!-- Script references -->
+  <script type="module" src="/main.js"></script>
+
+  <!-- Accordion Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const faqItems = document.querySelectorAll('.faq-item');
+      
+      faqItems.forEach(item => {
+        const trigger = item.querySelector('.faq-trigger');
+        const content = item.querySelector('.faq-content');
+        
+        trigger.addEventListener('click', () => {
+          const isActive = item.classList.contains('active');
+          
+          faqItems.forEach(otherItem => {
+            otherItem.classList.remove('active');
+            otherItem.querySelector('.faq-trigger').setAttribute('aria-expanded', 'false');
+            otherItem.querySelector('.faq-content').style.height = '0px';
+          });
+          
+          if (!isActive) {
+            item.classList.add('active');
+            trigger.setAttribute('aria-expanded', 'true');
+            const innerHeight = content.querySelector('.faq-content-inner').offsetHeight;
+            content.style.height = `${innerHeight}px`;
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+{
+  "locationName": "Bentonville, Arkansas",
+  "slug": "web-design-bentonville",
+  "title": "Enterprise Web Design & Vendor Portal Orchestration Bentonville | GOATEDDD",
+  "metaDescription": "Uncompromising digital architectures for Bentonville's elite retail suppliers and corporate innovators. Breathtaking design meets extreme, compliance-grade performance.",
+  "nap": {
+    "name": "GOATEDDD Bentonville",
+    "streetAddress": "805 S Walton Blvd, Suite 200",
+    "locality": "Bentonville",
+    "region": "AR",
+    "postalCode": "72712",
+    "country": "US",
+    "phone": "+1-479-202-6905",
+    "email": "bentonville@goateddd.com",
+    "priceRange": "$$$$"
+  },
+  "coordinates": {
+    "latitude": "36.37285",
+    "longitude": "-94.20882"
+  },
+  "landmarks": [
+    "Crystal Bridges Museum of American Art",
+    "Walmart Home Office",
+    "The Momentary",
+    "Bentonville Plaza",
+    "Coler Mountain Bike Preserve"
+  ],
+  "serviceAreas": [
+    "Rogers",
+    "Bella Vista",
+    "Centerton",
+    "Cave Springs",
+    "Lowell",
+    "Gravette",
+    "Decatur",
+    "Pea Ridge"
+  ],
+  "testimonials": [
+    {
+      "clientName": "Julian Vance",
+      "company": "Equinox Retail Group",
+      "role": "Chief Supply Chain Officer",
+      "text": "Pitching to Walmart executives requires flawless digital assets. We commissioned GOATEDDD to engineer a custom product visualization portal. Their Vite-optimized frontend and instant load speeds wowed the merchant team and secured our national placement. In Bentonville, slow is dead. GOATEDDD is the only studio that understands high-performance enterprise standards.",
+      "rating": 5
+    },
+    {
+      "clientName": "Brooke Sterling",
+      "company": "NWA Tech Ventures",
+      "role": "Co-Founder",
+      "text": "The local agency scene in Northwest Arkansas is used to serving low-scale shops. We needed an elite engineering team capable of launching a multi-tenant logistics portal. GOATEDDD delivered a masterpiece with micro-animations that feels incredibly premium, fully backstopped by their 80+ Mobile Page Speed guarantee.",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How does GOATEDDD support Walmart vendors and CPG brands in Bentonville?",
+      "answer": "Bentonville suppliers operate under extreme corporate pressure. We design high-performance B2B catalogs, interactive digital showrooms, and custom data portals that bypass sluggish templates. By providing hardware-accelerated interfaces and robust security, we give vendors the unfair technical advantage needed to win merchant category reviews."
+    },
+    {
+      "question": "What is the post-launch performance guarantee for Northwest Arkansas corporate sites?",
+      "answer": "Every corporate platform we build is legally backstopped to deliver an 80+/100 Mobile Page Speed on Google PageSpeed Insights and an 85-100 Google SEO score. These performance metrics are written into our registered MSME Master Service Agreement (MSA) standards, ensuring your enterprise operates at peak capability."
+    },
+    {
+      "question": "Can you build custom logistics and supply chain portals?",
+      "answer": "Yes. We integrate secure, custom-engineered API backends, real-time tracking pipelines, and high-fidelity interactive data graphs that keep supply-chain stakeholders aligned without visual lag or processing delays."
+    }
+  ],
+  "regionalCopy": {
+    "headline": "ELITE DIGITAL ENGINEERING FOR BENTONVILLE'S CORPORATE VANGUARD",
+    "intro": "In the global capital of retail, mediocrity is a liability. GOATEDDD engineers breathtaking, hyper-optimized digital platforms designed for corporate suppliers, retail innovators, and venture-backed startups demand absolute speed and visual dominance.",
+    "painPoints": [
+      {
+        "issue": "Walmart Supplier Pitch Vulnerability",
+        "detail": " CPGB and vendor portals that lag during crucial merchant presentations, leading to lost catalog expansions."
+      },
+      {
+        "issue": "Template Bloat Killing Core Web Vitals",
+        "detail": "Generic local agency templates failing strict corporate security audits and rendering poorly on mobile devices."
+      }
+    ],
+    "solution": "We engineer hardware-accelerated product showcases, secure enterprise portals, and crawl-optimized SEO funnels. Every build represents our signature blend of artistic fluidity and technical rigour.",
+    "pricingHighlight": "Corporate initiatives starting from $20,000. Underwritten by our registered MSME Master Service Agreement standards."
+  }
+}

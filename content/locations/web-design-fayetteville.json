@@ -1,0 +1,84 @@
+{
+  "locationName": "Fayetteville, Arkansas",
+  "slug": "web-design-fayetteville",
+  "title": "Bespoke Web Design & Interactive Startup Engineering Fayetteville | GOATEDDD",
+  "metaDescription": "Uncompromising interactive design and custom full-stack development for Fayetteville startups and premium local brands. 80+ PageSpeed & 85-100 SEO guaranteed.",
+  "nap": {
+    "name": "GOATEDDD Fayetteville",
+    "streetAddress": "100 W Center St, Suite 300",
+    "locality": "Fayetteville",
+    "region": "AR",
+    "postalCode": "72701",
+    "country": "US",
+    "phone": "+1-479-202-6903",
+    "email": "fayetteville@goateddd.com",
+    "priceRange": "$$$$"
+  },
+  "coordinates": {
+    "latitude": "36.06258",
+    "longitude": "-94.15743"
+  },
+  "landmarks": [
+    "Fayetteville Square",
+    "University of Arkansas Old Main",
+    "Mount Sequoyah",
+    "Dickson Street",
+    "Walton Arts Center"
+  ],
+  "serviceAreas": [
+    "Springdale",
+    "Farmington",
+    "Greenland",
+    "Elkins",
+    "Prairie Grove",
+    "Goshen",
+    "West Fork",
+    "Lincoln"
+  ],
+  "testimonials": [
+    {
+      "clientName": "Chloe Harrison",
+      "company": "Vanguard Biotech",
+      "role": "Founder & CEO",
+      "text": "Fayetteville has a growing startup ecosystem, but finding local developers who could execute complex Interactive Design was nearly impossible. Most agencies build sluggish WordPress sites. GOATEDDD engineered a high-fidelity startup landing page using Vite and custom GSAP micro-animations. It has been our secret weapon for venture capital fundraising rounds.",
+      "rating": 5
+    },
+    {
+      "clientName": "Oliver Hayes",
+      "company": "Sterling & Oak Development",
+      "role": "Principal",
+      "text": "For our premium real estate listings in Fayetteville, standard templates simply didn't convey the luxury feel we represent. GOATEDDD built a jaw-dropping, custom interactive web portfolio with buttery-smooth scrolling that redefined our brand positioning. Their registered MSME MSA standards are the real deal.",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How does GOATEDDD cater to tech startups and local brands in Fayetteville?",
+      "answer": "Fayetteville startups need to scale quickly and impress institutional investors. We craft high-fidelity, interactive digital architectures that combine custom creative direction with blazing fast bundle speeds. By utilizing WebGL and custom GSAP transition systems, we make your tech stack look and feel like a billion-dollar product."
+    },
+    {
+      "question": "Can you design complex animations without hurting local mobile search rankings?",
+      "answer": "Yes. Most agencies rely on bloated libraries that kill performance. We construct hardware-accelerated animations directly in pure CSS, native ESM, and GSAP. This lightweight approach ensures your Fayetteville site looks breathtaking while securing an 80+ PageSpeed rating and flawless local SEO."
+    },
+    {
+      "question": "What standard benchmarks do you promise under your MSA?",
+      "answer": "Every single site we engineer guarantees a minimum 80+/100 Mobile Page Speed score and an 85-100 Google SEO rating. These are legally documented and backstopped by our registered MSME Master Service Agreement (MSA) standards."
+    }
+  ],
+  "regionalCopy": {
+    "headline": "KINETIC WEB ORCHESTRATION FOR FAYETTEVILLE'S DIGITAL PIONEERS",
+    "intro": "Nestled in the cultural and academic heart of Arkansas, Fayetteville demands a higher standard of creative digital expression. GOATEDDD engineers custom, high-fidelity web ecosystems that perfectly combine artistic fluidity with modern engineering to elevate local tech startups and premium brands.",
+    "painPoints": [
+      {
+        "issue": "Venture-Grade Brand Gaps",
+        "detail": "Local Fayetteville tech innovators using mediocre, slow-loading templates that fail to engage modern venture capitalist funds."
+      },
+      {
+        "issue": "Slow Dickson Street Retail Conversions",
+        "detail": "Local hospitality and premium retail establishments struggling with lagging mobile load times that choke tourist traffic."
+      }
+    ],
+    "solution": "We engineer custom-coded, interactive digital architectures optimized with Vite, Lenis smooth scrolling, and custom WebGL layouts to create deeply immersive and responsive storytelling.",
+    "pricingHighlight": "Selective startup and premium brand engagements starting from $12,000. Legally backed by MSME Master Service Agreement standards."
+  }
+}

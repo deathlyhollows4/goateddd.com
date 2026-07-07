@@ -24,23 +24,30 @@ const lenis = new Lenis({
 });
 
 // Sync Lenis scroll events with GSAP ScrollTrigger updates
+const dialProgress = document.querySelector('.dial-progress');
+const dial = document.querySelector('.scroll-dial-container');
+
 lenis.on('scroll', () => {
   ScrollTrigger.update();
   
   // Floating Dial Progress Update
-  const totalScroll = document.documentElement.scrollHeight - window.innerHeight;
-  if (totalScroll > 0) {
-    const scrollPercent = Math.min(Math.max(window.scrollY / totalScroll, 0), 1);
-    const circumference = 150.8;
-    const offset = circumference - (scrollPercent * circumference);
-    gsap.set('.dial-progress', { strokeDashoffset: offset });
-    
-    const dial = document.querySelector('.scroll-dial-container');
-    if (dial) {
-      if (window.scrollY > 200) {
-        dial.classList.add('visible');
-      } else {
-        dial.classList.remove('visible');
+  if (dialProgress || dial) {
+    const totalScroll = document.documentElement.scrollHeight - window.innerHeight;
+    if (totalScroll > 0) {
+      const scrollPercent = Math.min(Math.max(window.scrollY / totalScroll, 0), 1);
+      
+      if (dialProgress) {
+        const circumference = 150.8;
+        const offset = circumference - (scrollPercent * circumference);
+        gsap.set(dialProgress, { strokeDashoffset: offset });
+      }
+      
+      if (dial) {
+        if (window.scrollY > 200) {
+          dial.classList.add('visible');
+        } else {
+          dial.classList.remove('visible');
+        }
       }
     }
   }
@@ -282,11 +289,9 @@ menuTimeline.to(menuOverlay, {
 menuTimeline.fromTo('.menu-overlay-bg', {
   scale: 1.06,
   backdropFilter: 'blur(0px)',
-  webkitBackdropFilter: 'blur(0px)',
 }, {
   scale: 1,
   backdropFilter: 'blur(30px)',
-  webkitBackdropFilter: 'blur(30px)',
   duration: 0.9,
   ease: 'power4.out'
 }, 0);
@@ -730,11 +735,9 @@ contactTimeline.to(contactModal, {
 contactTimeline.fromTo('.contact-modal-bg', {
   scale: 1.08,
   backdropFilter: 'blur(0px)',
-  webkitBackdropFilter: 'blur(0px)',
 }, {
   scale: 1,
   backdropFilter: 'blur(40px)',
-  webkitBackdropFilter: 'blur(40px)',
   duration: 0.8,
   ease: 'power3.out'
 }, 0);
@@ -914,12 +917,14 @@ if (menuOverlay) setupOverlayFocusTrap(menuOverlay);
 if (contactModal) setupOverlayFocusTrap(contactModal);
 
 // Wire up custom cursor hovers for the close button and form input groups
-modalCloseBtn.addEventListener('mouseenter', () => {
-  cursor.classList.add('link-hovered');
-});
-modalCloseBtn.addEventListener('mouseleave', () => {
-  cursor.classList.remove('link-hovered');
-});
+if (modalCloseBtn) {
+  modalCloseBtn.addEventListener('mouseenter', () => {
+    cursor.classList.add('link-hovered');
+  });
+  modalCloseBtn.addEventListener('mouseleave', () => {
+    cursor.classList.remove('link-hovered');
+  });
+}
 
 const formInputs = document.querySelectorAll('.form-group input, .form-group textarea, .submit-glass-btn');
 formInputs.forEach(input => {
@@ -1071,11 +1076,9 @@ function initCaseStudyOverlays() {
   csTimeline.fromTo('.cs-overlay-bg', {
     scale: 1.08,
     backdropFilter: 'blur(0px)',
-    webkitBackdropFilter: 'blur(0px)',
   }, {
     scale: 1,
     backdropFilter: 'blur(45px)',
-    webkitBackdropFilter: 'blur(45px)',
     duration: 0.8,
     ease: 'power3.out'
   }, 0);
@@ -1217,17 +1220,18 @@ const projectInput = document.getElementById('form-project'); // hidden input ho
 const messageInput = document.getElementById('form-message');
 
 const customSelect = document.getElementById('form-project-select');
-const selectTrigger = customSelect.querySelector('.custom-select-trigger');
-const selectedValueSpan = selectTrigger.querySelector('.selected-value');
-const customOptions = customSelect.querySelectorAll('.custom-option');
+const selectTrigger = customSelect ? customSelect.querySelector('.custom-select-trigger') : null;
+const selectedValueSpan = selectTrigger ? selectTrigger.querySelector('.selected-value') : null;
+const customOptions = customSelect ? customSelect.querySelectorAll('.custom-option') : [];
 
 const successModal = document.getElementById('success-modal');
 const successCloseBtn = document.getElementById('success-close-btn');
 
-// Regex Patterns
-const nameRegex = /^[a-zA-Z\s'-]{2,50}$/;
-const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-const messageRegex = /^(?!\s*$).{10,}$/;
+if (contactForm && customSelect && selectTrigger && selectedValueSpan && successModal && successCloseBtn && nameInput && emailInput && projectInput && messageInput) {
+  // Regex Patterns
+  const nameRegex = /^[a-zA-Z\s'-]{2,50}$/;
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  const messageRegex = /^(?!\s*$).{10,}$/;
 
 // Programmatic helper to pre-populate custom select dropdown
 function setProjectScope(value) {
@@ -1530,11 +1534,9 @@ successTimeline.to(successModal, {
 successTimeline.fromTo('.success-modal-bg', {
   scale: 1.05,
   backdropFilter: 'blur(0px)',
-  webkitBackdropFilter: 'blur(0px)',
 }, {
   scale: 1,
   backdropFilter: 'blur(40px)',
-  webkitBackdropFilter: 'blur(40px)',
   duration: 0.6,
   ease: 'power3.out'
 }, 0);
@@ -1639,6 +1641,8 @@ successCloseBtn.addEventListener('click', () => {
   // Reactivate scroll engine
   lenis.start();
 });
+
+} // <-- Close of form logic guard
 
 // Wire up dynamic cursor hover alerts inside standard hover loops
 const hoverSelectElements = document.querySelectorAll('.custom-select-trigger, .custom-option, #success-close-btn');

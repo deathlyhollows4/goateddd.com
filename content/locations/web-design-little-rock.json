@@ -1,0 +1,84 @@
+{
+  "locationName": "Little Rock, Arkansas",
+  "slug": "web-design-little-rock",
+  "title": "Bespoke Web Design & Technical Orchestration Little Rock | GOATEDDD",
+  "metaDescription": "Elevate your Little Rock enterprise with GOATEDDD's high-performance digital architectures. Breathtaking interactive designs backstopped by registered MSME MSA benchmarks.",
+  "nap": {
+    "name": "GOATEDDD Little Rock",
+    "streetAddress": "400 W Capitol Ave, Suite 1700",
+    "locality": "Little Rock",
+    "region": "AR",
+    "postalCode": "72201",
+    "country": "US",
+    "phone": "+1-501-404-9720",
+    "email": "littlerock@goateddd.com",
+    "priceRange": "$$$$"
+  },
+  "coordinates": {
+    "latitude": "34.74648",
+    "longitude": "-92.27552"
+  },
+  "landmarks": [
+    "Simmons Tower",
+    "Arkansas State Capitol",
+    "River Market District",
+    "Clinton Presidential Center",
+    "Little Rock Riverfront Park"
+  ],
+  "serviceAreas": [
+    "North Little Rock",
+    "West Little Rock",
+    "Sherwood",
+    "Maumelle",
+    "Bryant",
+    "Benton",
+    "Jacksonville",
+    "Cabot"
+  ],
+  "testimonials": [
+    {
+      "clientName": "Devon Miller",
+      "company": "Summit Capital Partners",
+      "role": "Managing Director",
+      "text": "Little Rock's local agency market is saturated with sluggish WordPress templates and broken promises. GOATEDDD completely blew our expectations out of the water. They delivered a custom, high-fidelity engineering masterpiece that loaded instantly, helping us secure a massive state contractor bid. The performance is backstopped by a rock-solid MSME Master Service Agreement.",
+      "rating": 5
+    },
+    {
+      "clientName": "Sarah Sterling",
+      "company": "River Valley Logistics",
+      "role": "VP of Marketing",
+      "text": "We were bleeding potential leads due to a slow, generic website built by a traditional local agency. GOATEDDD built a blazing-fast, custom Vite-powered application that redefined our digital presence. Our local search visibility across the River Market and West Little Rock exploded.",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why does a Little Rock business need full-stack custom engineering instead of WordPress?",
+      "answer": "WordPress sites are weighed down by bloated plugins, vulnerability exploits, and sluggish load times, which directly kill conversions and tank search engine rankings. GOATEDDD crafts bespoke, clean-code digital architectures built on native modern ESM and Vite. By bypassing heavy frameworks, we ensure your site loads with millisecond precision, securing an 80+ Mobile Page Speed and 85-100 SEO score guaranteed by our MSME MSA."
+    },
+    {
+      "question": "How does GOATEDDD guarantee local SEO dominance in the Arkansas capital?",
+      "answer": "We don't do basic keyword stuffing. We construct programmatic, crawl-optimized SEO funnels combined with server-rendered efficiency, instant page loads, and semantic schema markups (JSON-LD). This ensures Google's algorithms reward your site with premium rankings ahead of slower capital competitors."
+    },
+    {
+      "question": "Can you integrate advanced enterprise databases and customer portals for Little Rock businesses?",
+      "answer": "Absolutely. We are a full-stack orchestration studio. We seamlessly build secure, high-performance node-based microservices, custom CRM pipelines, and interactive dashboards, assuring they work flawlessly with elegant, hardware-accelerated frontend transitions."
+    }
+  ],
+  "regionalCopy": {
+    "headline": "UNCOMPROMISING DIGITAL SHAPESHIFTING FOR LITTLE ROCK ENTERPRISES",
+    "intro": "In the central hub of Arkansas, standard, off-the-shelf templates do not command respect. GOATEDDD builds premium, sensory-rich digital platforms that position capital-city leaders, government contractors, and financial institutions at the absolute apex of their industries.",
+    "painPoints": [
+      {
+        "issue": "Capital Saturated Market Sluggishness",
+        "detail": "Little Rock's digital space is filled with identical, slow-loading websites that fail to differentiate high-value offerings."
+      },
+      {
+        "issue": "Security Vulnerabilities in Critical Portals",
+        "detail": "Local financial firms and corporate leaders are exposed to security flaws inherent in template builders like WordPress and Webflow."
+      }
+    ],
+    "solution": "We replace obsolete templates with custom hardware-accelerated interfaces and secure, enterprise-grade backends. Every element is structured to deliver jaw-dropping aesthetics and top-tier core web vitals.",
+    "pricingHighlight": "Selective engagements starting from $15,000. Each deployment is legally backstopped to secure verified speed benchmarks of 80+ on mobile."
+  }
+}

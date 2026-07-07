@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bespoke Web Design & Interactive Startup Engineering Fayetteville | GOATEDDD</title>
+  <meta name="description" content="Uncompromising interactive design and custom full-stack development for Fayetteville startups and premium local brands. 80+ PageSpeed & 85-100 SEO guaranteed.">
+
+  <!-- SEO Sitemap and Search Engine Verifications -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+  <meta name="google-site-verification" content="z_GOATEDDD_Apex_Rank_SEO_Verification_Key_2026">
+  
+  <!-- Apple Touch & Favicon Assets -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <meta name="theme-color" content="#07070a">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://goateddd.com/location/web-design-fayetteville/">
+  <meta property="og:title" content="Bespoke Web Design & Interactive Startup Engineering Fayetteville | GOATEDDD">
+  <meta property="og:description" content="Uncompromising interactive design and custom full-stack development for Fayetteville startups and premium local brands. 80+ PageSpeed & 85-100 SEO guaranteed.">
+  <meta property="og:image" content="https://goateddd.com/assets/hero_artwork.webp">
+
+  <!-- Twitter / X Card Configurations -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bespoke Web Design & Interactive Startup Engineering Fayetteville | GOATEDDD">
+  <meta name="twitter:description" content="Uncompromising interactive design and custom full-stack development for Fayetteville startups and premium local brands. 80+ PageSpeed & 85-100 SEO guaranteed.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  
+  <!-- Inherit core studio styling from main index.css -->
+  <link rel="stylesheet" href="/index.css">
+
+  <!-- Dynamic JSON-LD Local Business & FAQ Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://goateddd.com/location/web-design-fayetteville/#local-business",
+        "name": "GOATEDDD Fayetteville",
+        "url": "https://goateddd.com/location/web-design-fayetteville/",
+        "logo": "https://goateddd.com/assets/hero_artwork.webp",
+        "image": "https://goateddd.com/assets/hero_artwork.webp",
+        "description": "Uncompromising interactive design and custom full-stack development for Fayetteville startups and premium local brands. 80+ PageSpeed & 85-100 SEO guaranteed.",
+        "priceRange": "$$",
+        "telephone": "+1-479-202-6903",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "100 W Center St, Suite 300",
+          "addressLocality": "Fayetteville",
+          "addressRegion": "AR",
+          "postalCode": "72701",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "36.06258",
+          "longitude": "-94.15743"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    .location-header {
+      padding-top: 180px;
+      padding-bottom: 60px;
+      text-align: left;
+      position: relative;
+      z-index: 2;
+    }
+
+    .location-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(159, 90, 253, 0.08);
+      border: 1px solid rgba(159, 90, 253, 0.2);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-family: var(--font-jakarta);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: var(--accent-pink);
+      margin-bottom: 24px;
+    }
+
+    .location-headline {
+      font-size: 4.2vw;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      margin-bottom: 30px;
+      max-width: 1000px;
+      text-transform: uppercase;
+      font-family: var(--font-syne);
+    }
+
+    @media (max-width: 768px) {
+      .location-headline {
+        font-size: 2.2rem;
+      }
+    }
+
+    .location-intro-desc {
+      font-size: 1.25rem;
+      line-height: 1.7;
+      color: rgba(248, 248, 248, 0.85);
+      max-width: 850px;
+      margin-bottom: 50px;
+    }
+
+    .section-title-small {
+      font-family: var(--font-syne);
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 0.2em;
+      color: var(--accent-purple);
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    /* NAP Grid Layout */
+    .nap-container-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      margin-bottom: 80px;
+      background: rgba(255, 255, 255, 0.01);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      padding: 50px;
+      backdrop-filter: blur(12px);
+    }
+
+    @media (max-width: 768px) {
+      .nap-container-grid {
+        grid-template-columns: 1fr;
+        padding: 30px 20px;
+        gap: 35px;
+      }
+    }
+
+    .nap-col-info {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .nap-item-detail {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .nap-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--accent-champagne);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .nap-value {
+      font-size: 1.15rem;
+      color: var(--text-light);
+      text-decoration: none;
+    }
+
+    a.nap-value:hover {
+      color: var(--accent-purple);
+    }
+
+    .tag-cloud-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .geo-tag {
+      font-size: 0.8rem;
+      padding: 6px 14px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      color: var(--text-muted);
+    }
+
+    /* Pain Points and Solution */
+    .problem-solution-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 80px;
+    }
+
+    @media (max-width: 768px) {
+      .problem-solution-row {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+    }
+
+    .problem-box {
+      background: rgba(255, 141, 242, 0.01);
+      border: 1px solid rgba(255, 141, 242, 0.15);
+      border-radius: 20px;
+      padding: 40px;
+    }
+
+    .problem-issue-item {
+      margin-bottom: 24px;
+    }
+
+    .problem-issue-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .problem-title {
+      font-family: var(--font-syne);
+      font-size: 1.2rem;
+      color: var(--accent-pink);
+      margin-bottom: 8px;
+    }
+
+    .problem-desc {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: var(--text-muted);
+    }
+
+    .solution-box {
+      background: rgba(159, 90, 253, 0.02);
+      border: 1px solid rgba(159, 90, 253, 0.2);
+      border-radius: 20px;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .solution-text {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: rgba(248, 248, 248, 0.85);
+      margin-bottom: 30px;
+    }
+
+    .solution-highlight-badge {
+      font-family: var(--font-syne);
+      font-size: 0.9rem;
+      color: var(--accent-champagne);
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      padding-top: 20px;
+      font-weight: 700;
+    }
+
+    /* Local Testimonials Section */
+    .local-testimonials-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-bottom: 80px;
+    }
+
+    @media (max-width: 991px) {
+      .local-testimonials-row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .testimonial-card-local {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 300px;
+      transition: all 0.4s ease;
+    }
+
+    .testimonial-card-local:hover {
+      border-color: rgba(159, 90, 253, 0.3);
+      box-shadow: 0 10px 30px rgba(159, 90, 253, 0.06);
+    }
+
+    .t-header-local {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .t-stars-local {
+      color: var(--accent-purple);
+      font-size: 1.2rem;
+      letter-spacing: 2px;
+    }
+
+    .t-role-local {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--accent-champagne);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .t-text-local {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: rgba(248, 248, 248, 0.8);
+      margin-bottom: 30px;
+      font-style: italic;
+    }
+
+    .t-author-local {
+      font-family: var(--font-syne);
+      font-size: 1.1rem;
+      color: var(--text-light);
+    }
+
+    .t-author-company {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Skiplink for keyboard navigation compliance -->
+  <a href="#main-content" class="skip-to-content" style="position: absolute; top: -100px; left: 20px; background: var(--accent-purple); color: #fff; padding: 12px 24px; border-radius: 8px; z-index: 9999; transition: top 0.3s; font-family: var(--font-jakarta); font-weight: 700; text-decoration: none;" onfocus="this.style.top='20px'" onblur="this.style.top='-100px'">Skip to Content</a>
+
+  <!-- Loading State -->
+  <div id="loader" class="loader">
+    <div class="loader-content">
+      <span class="loader-text">GOATEDDD</span>
+      <div class="loader-bar-container">
+        <div class="loader-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div id="custom-cursor" class="custom-cursor">
+    <div class="cursor-glare"></div>
+    <div class="cursor-glare-2"></div>
+    <span class="cursor-text">EXPLORE</span>
+  </div>
+
+  <!-- Dynamic Ambient Orbs -->
+  <div class="ambient-background">
+    <canvas id="ambient-particles" class="ambient-particles"></canvas>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Fullscreen Glass Menu Overlay -->
+  <div id="menu-overlay" class="menu-overlay" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Navigation Menu">
+    <div class="menu-overlay-bg"></div>
+    <div class="container menu-overlay-container">
+      
+      <div class="menu-overlay-links">
+        <a href="/" class="menu-overlay-link">
+          <span class="link-num">01</span>
+          <span class="link-txt">HOME</span>
+        </a>
+        <a href="/#showreel" class="menu-overlay-link">
+          <span class="link-num">02</span>
+          <span class="link-txt">ABOUT</span>
+        </a>
+        <a href="/#work" class="menu-overlay-link">
+          <span class="link-num">03</span>
+          <span class="link-txt">WORK</span>
+        </a>
+        <a href="/services/" class="menu-overlay-link">
+          <span class="link-num">04</span>
+          <span class="link-txt">SERVICES</span>
+        </a>
+        <a href="/#testimonials" class="menu-overlay-link">
+          <span class="link-num">05</span>
+          <span class="link-txt">REVIEWS</span>
+        </a>
+      </div>
+
+      <div class="menu-overlay-footer">
+        <div class="menu-footer-col">
+          <span class="menu-col-title">LET'S CONNECT</span>
+          <a href="mailto:hello@goateddd.com" class="menu-footer-item contact-trigger">hello@goateddd.com</a>
+        </div>
+        <div class="menu-footer-col">
+          <span class="menu-col-title">SOCIAL CHANNELS</span>
+          <div class="menu-social-links">
+            <a href="https://instagram.com/goateddd_studio" class="menu-footer-item">Instagram</a>
+            <a href="https://linkedin.com/company/goateddd" class="menu-footer-item">LinkedIn</a>
+            <a href="https://dribbble.com/goateddd" class="menu-footer-item">Dribbble</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Smooth Scroll Wrapper -->
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+
+      <!-- Navigation Header -->
+      <header class="header" role="banner">
+        <div class="nav-container">
+          <a href="/" class="brand-logo" aria-label="GOATEDDD Home">GOATEDDD</a>
+          
+          <nav class="nav-links" aria-label="Primary Navigation">
+            <a href="/" class="nav-link-item">Home</a>
+            <a href="/#showreel" class="nav-link-item">About</a>
+            <a href="/#work" class="nav-link-item">Work</a>
+            <a href="/services/" class="nav-link-item">Services</a>
+            <a href="/#testimonials" class="nav-link-item">Reviews</a>
+          </nav>
+
+          <!-- Glass Hamburger menu trigger -->
+          <button id="menu-btn" class="menu-btn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="menu-overlay">
+            <span class="btn-line line-1"></span>
+            <span class="btn-line line-2"></span>
+          </button>
+        </div>
+      </header>
+
+      <main id="main-content" role="main" aria-label="Location Details">
+        <div class="container">
+          
+          <!-- Location Header Section -->
+          <header class="location-header">
+            <span class="location-badge">REGIONAL OFFICE PROFILE</span>
+            
+            <h1 class="location-headline gradient-text">
+              KINETIC WEB ORCHESTRATION FOR FAYETTEVILLE'S DIGITAL PIONEERS
+            </h1>
+            
+            <p class="location-intro-desc">Nestled in the cultural and academic heart of Arkansas, Fayetteville demands a higher standard of creative digital expression. GOATEDDD engineers custom, high-fidelity web ecosystems that perfectly combine artistic fluidity with modern engineering to elevate local tech startups and premium brands.</p>
+          </header>
+
+          <!-- NAP & Service Area Details Section -->
+          <section class="nap-section" aria-label="Business Coordinates">
+            <h2 class="section-title-small">COORDINATES & REACH</h2>
+            
+            <div class="nap-container-grid">
+              
+              <div class="nap-col-info">
+                <div class="nap-item-detail">
+                  <span class="nap-label">STUDIO ENTITY</span>
+                  <span class="nap-value">GOATEDDD Fayetteville</span>
+                </div>
+
+                <div class="nap-item-detail">
+                  <span class="nap-label">STREET ADDRESS</span>
+                  <span class="nap-value">100 W Center St, Suite 300, Fayetteville, AR 72701</span>
+                </div>
+
+                <div class="nap-item-detail">
+                  <span class="nap-label">TELEPHONE</span>
+                  <a href="tel:+1-479-202-6903" class="nap-value">+1-479-202-6903</a>
+                </div>
+
+                <div class="nap-item-detail">
+                  <span class="nap-label">EMAIL CHANNEL</span>
+                  <a href="mailto:fayetteville@goateddd.com" class="nap-value">fayetteville@goateddd.com</a>
+                </div>
+              </div>
+
+              <div class="nap-col-info">
+                <div class="nap-item-detail">
+                  <span class="nap-label">LOCAL LANDMARKS</span>
+                  <div class="tag-cloud-wrapper">
+                    <span class="geo-tag">Fayetteville Square</span>
+<span class="geo-tag">University of Arkansas Old Main</span>
+<span class="geo-tag">Mount Sequoyah</span>
+<span class="geo-tag">Dickson Street</span>
+<span class="geo-tag">Walton Arts Center</span>
+
+                  </div>
+                </div>
+
+                <div class="nap-item-detail" style="margin-top: 15px;">
+                  <span class="nap-label">REGIONAL COVERAGE AREAS</span>
+                  <div class="tag-cloud-wrapper">
+                    <span class="geo-tag">Springdale</span>
+<span class="geo-tag">Farmington</span>
+<span class="geo-tag">Greenland</span>
+<span class="geo-tag">Elkins</span>
+<span class="geo-tag">Prairie Grove</span>
+<span class="geo-tag">Goshen</span>
+<span class="geo-tag">West Fork</span>
+<span class="geo-tag">Lincoln</span>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <!-- Problems & Custom Solution Section -->
+          <section class="problem-solution-section" aria-label="Local Painpoints & Solution">
+            <h2 class="section-title-small">MARKET AUDITING & CUSTOM ENGINEERING</h2>
+            
+            <div class="problem-solution-row">
+              <div class="problem-box">
+                <h3 class="section-title-small" style="color: var(--accent-pink);">IDENTIFIED LOCAL PATHOLOGY</h3>
+                <div style="margin-top: 20px;">
+                  
+        <div class="problem-issue-item">
+          <h4 class="problem-title">✗ Venture-Grade Brand Gaps</h4>
+          <p class="problem-desc">Local Fayetteville tech innovators using mediocre, slow-loading templates that fail to engage modern venture capitalist funds.</p>
+        </div>
+        <div class="problem-issue-item">
+          <h4 class="problem-title">✗ Slow Dickson Street Retail Conversions</h4>
+          <p class="problem-desc">Local hospitality and premium retail establishments struggling with lagging mobile load times that choke tourist traffic.</p>
+        </div>
+                </div>
+              </div>
+
+              <div class="solution-box">
+                <div>
+                  <h3 class="section-title-small"> Bespoke Technical Solution</h3>
+                  <p class="solution-text" style="margin-top: 20px;">We engineer custom-coded, interactive digital architectures optimized with Vite, Lenis smooth scrolling, and custom WebGL layouts to create deeply immersive and responsive storytelling.</p>
+                </div>
+                <div class="solution-highlight-badge">
+                  Selective startup and premium brand engagements starting from $12,000. Legally backed by MSME Master Service Agreement standards.
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Testimonials Section -->
+          <section class="local-testimonials-section" aria-label="Local Verification">
+            <h2 class="section-title-small">REGIONAL REVELATIONS</h2>
+            <div class="local-testimonials-row">
+              
+        <div class="testimonial-card-local">
+          <div>
+            <div class="t-header-local">
+              <div class="t-stars-local">★★★★★</div>
+              <div class="t-role-local">Founder & CEO</div>
+            </div>
+            <p class="t-text-local">"Fayetteville has a growing startup ecosystem, but finding local developers who could execute complex Interactive Design was nearly impossible. Most agencies build sluggish WordPress sites. GOATEDDD engineered a high-fidelity startup landing page using Vite and custom GSAP micro-animations. It has been our secret weapon for venture capital fundraising rounds."</p>
+          </div>
+          <div>
+            <div class="t-author-local">Chloe Harrison</div>
+            <div class="t-author-company">Vanguard Biotech</div>
+          </div>
+        </div>
+        <div class="testimonial-card-local">
+          <div>
+            <div class="t-header-local">
+              <div class="t-stars-local">★★★★★</div>
+              <div class="t-role-local">Principal</div>
+            </div>
+            <p class="t-text-local">"For our premium real estate listings in Fayetteville, standard templates simply didn't convey the luxury feel we represent. GOATEDDD built a jaw-dropping, custom interactive web portfolio with buttery-smooth scrolling that redefined our brand positioning. Their registered MSME MSA standards are the real deal."</p>
+          </div>
+          <div>
+            <div class="t-author-local">Oliver Hayes</div>
+            <div class="t-author-company">Sterling & Oak Development</div>
+          </div>
+        </div>
+            </div>
+          </section>
+
+          <!-- FAQ Accordion -->
+          <div class="faq-container">
+            <div class="faq-intro">
+              <h2 class="faq-section-title"><span class="tag-glow">FAQ</span><br>REGIONAL DEEP <span class="gradient-text font-editorial">DIVE</span></h2>
+            </div>
+            
+            <div class="faq-accordion" role="presentation">
+              
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-0">
+            <span class="faq-number">01</span>
+            <span class="faq-question">How does GOATEDDD cater to tech startups and local brands in Fayetteville?</span>
+            <span class="faq-icon-wrapper">
+              <span class="faq-icon-line line-h"></span>
+              <span class="faq-icon-line line-v"></span>
+            </span>
+          </button>
+          <div id="faq-ans-0" class="faq-content" role="region" aria-label="Answer 01">
+            <div class="faq-content-inner">
+              <p>Fayetteville startups need to scale quickly and impress institutional investors. We craft high-fidelity, interactive digital architectures that combine custom creative direction with blazing fast bundle speeds. By utilizing WebGL and custom GSAP transition systems, we make your tech stack look and feel like a billion-dollar product.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-1">
+            <span class="faq-number">02</span>
+            <span class="faq-question">Can you design complex animations without hurting local mobile search rankings?</span>
+            <span class="faq-icon-wrapper">
+              <span class="faq-icon-line line-h"></span>
+              <span class="faq-icon-line line-v"></span>
+            </span>
+          </button>
+          <div id="faq-ans-1" class="faq-content" role="region" aria-label="Answer 02">
+            <div class="faq-content-inner">
+              <p>Yes. Most agencies rely on bloated libraries that kill performance. We construct hardware-accelerated animations directly in pure CSS, native ESM, and GSAP. This lightweight approach ensures your Fayetteville site looks breathtaking while securing an 80+ PageSpeed rating and flawless local SEO.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-2">
+            <span class="faq-number">03</span>
+            <span class="faq-question">What standard benchmarks do you promise under your MSA?</span>
+            <span class="faq-icon-wrapper">
+              <span class="faq-icon-line line-h"></span>
+              <span class="faq-icon-line line-v"></span>
+            </span>
+          </button>
+          <div id="faq-ans-2" class="faq-content" role="region" aria-label="Answer 03">
+            <div class="faq-content-inner">
+              <p>Every single site we engineer guarantees a minimum 80+/100 Mobile Page Speed score and an 85-100 Google SEO rating. These are legally documented and backstopped by our registered MSME Master Service Agreement (MSA) standards.</p>
+            </div>
+          </div>
+        </div>
+            </div>
+          </div>
+
+        </div>
+      </main>
+
+      <!-- Standard Studio Footer -->
+      <footer class="footer" role="contentinfo">
+        <div class="footer-sand-block">
+          <div class="container">
+            
+            <div class="footer-top">
+              <h2 class="footer-headline">WE ARE <br><span class="font-editorial">GOATEDDD</span></h2>
+              <div class="footer-action-box">
+                <span class="footer-small">CLAIM THE APEX STANDARD</span>
+                <a href="mailto:hello@goateddd.com" class="footer-mail-link">
+                  hello@goateddd.com
+                  <span class="mail-arrow" aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              
+              <div class="footer-col">
+                <span class="col-title">NAVIGATION</span>
+                <a href="/" class="col-item">Home</a>
+                <a href="/#showreel" class="col-item">About</a>
+                <a href="/#work" class="col-item">Work</a>
+                <a href="/#testimonials" class="col-item">Reviews</a>
+              </div>
+
+              <div class="footer-col">
+                <span class="col-title">OUR SERVICES</span>
+                <a href="/services/custom-web-design/" class="col-item">Web Design</a>
+                <a href="/services/seo-services/" class="col-item">SEO Services</a>
+                <a href="/services/performance-marketing/" class="col-item">Performance Marketing</a>
+                <a href="/services/graphic-design/" class="col-item">Graphic Design</a>
+              </div>
+
+              <div class="footer-col msme-col">
+                <div class="msme-badge-shield" tabindex="0" aria-label="GOATEDDD studio Registered MSME Certificate Profile">
+                  <div class="shield-ambient-glow"></div>
+                  <div class="shield-inner">
+                    <svg class="msme-emblem-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <polygon points="50,5 92,25 92,65 50,95 8,65 8,25" fill="#07070a" stroke="#ffd2a9" stroke-width="2"/>
+                      <polygon points="50,12 85,29 85,61 50,86 15,61 15,29" fill="rgba(255,210,169,0.06)" stroke="#ffd2a9" stroke-width="1" stroke-dasharray="3,3"/>
+                      <path d="M35,38 L45,45 L65,30 M35,46 L45,53 L65,38 M35,54 L45,61 L65,46" stroke="#ff8df2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      <circle cx="50" cy="50" r="4" fill="#ffd2a9"/>
+                    </svg>
+                    <div class="shield-body">
+                      <span class="msme-gov-title">REGISTRATION ACTIVE</span>
+                      <span class="msme-reg-title">GOATEDDD STUDIO</span>
+                      <div class="msme-divider"></div>
+                      <span class="msme-label">MSME UDYAM NUMBER</span>
+                      <span class="msme-code">UDYAM-TX-03-09952</span>
+                      <span class="msme-subtext">APEX ENGINEERING</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="footer-col copyright-col">
+                <span class="col-title">OFFICE</span>
+                <p class="col-item" style="pointer-events: none;">Austin, Texas</p>
+                <p class="col-item" style="pointer-events: none; margin-top: 12px; font-size: 0.85rem; color: #0c0d127a;">
+                  © 2026 GOATEDDD. <br>All architectural rights reserved.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <!-- Script references -->
+  <script type="module" src="/main.js"></script>
+
+  <!-- Accordion Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const faqItems = document.querySelectorAll('.faq-item');
+      
+      faqItems.forEach(item => {
+        const trigger = item.querySelector('.faq-trigger');
+        const content = item.querySelector('.faq-content');
+        
+        trigger.addEventListener('click', () => {
+          const isActive = item.classList.contains('active');
+          
+          faqItems.forEach(otherItem => {
+            otherItem.classList.remove('active');
+            otherItem.querySelector('.faq-trigger').setAttribute('aria-expanded', 'false');
+            otherItem.querySelector('.faq-content').style.height = '0px';
+          });
+          
+          if (!isActive) {
+            item.classList.add('active');
+            trigger.setAttribute('aria-expanded', 'true');
+            const innerHeight = content.querySelector('.faq-content-inner').offsetHeight;
+            content.style.height = `${innerHeight}px`;
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
